@@ -1,0 +1,191 @@
+
+.dropdown-menu li a {
+    font-size: 13px;
+
+}
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+    border-bottom: none !important;
+}
+.menu-principal-home .destacado a {
+    font-size: 30px;
+    max-width: 200px;
+    line-height:32px;
+}
+.menu-principal-home .destacado:hover a {
+    text-decoration: none !important;
+    font-size: 30px;
+}
+.destLi .field-content p {
+    font-size: 17px;
+    line-height: 17px;
+    font-weight: 400;
+}
+@media(min-width: 1361px) and (max-width: 1617px){
+    .view-prensa .views-field-body {
+        font-size: 13px;
+         word-wrap: break-word;
+}
+}
+
+@media(min-width: 1000px) and (max-width: 1500px){
+
+            .home-block {
+                top: 0;
+            }
+            .home-block .field--name-body {
+                padding: 35px;
+            }
+            .home-block .field--name-body p {
+                font-size: 17px;
+                line-height: 1.2;
+            }
+            .block-testimonios {
+                padding: 68px 170px;
+            }
+            .block-testimonios p {
+                font-size: 17px;
+            }
+            .block-gente-text {
+                padding: 60px 144px;
+            }
+            .block-gente-text h2 {
+                line-height: 38px;
+            }
+            .block-text-actualidad {
+                padding: 68px 170px;
+            }
+            
+            .view-convenios-slider{
+                width: 93%;
+                margin:0 auto;
+            }
+
+            .view-convenios-slider  .flexslider .slides img {
+            margin: 0px 0px;
+            padding: 10px 19px;
+            }
+            
+            .view-eventos .evento-2-home {
+                padding: 60px 5%;
+            }
+            .view-eventos .evento-2-home .views-field-field-informacion-corta-evento a {
+                 font-size: 2.8rem;
+                 text-decoration: none;
+            }
+            .view-eventos .evento-1-home .views-field-field-informacion-corta-evento a:hover {
+                color: #414343;
+                text-decoration: none;
+            }
+            footer .wrapper {
+                padding-bottom: 50px;
+            }
+            ul.list_footer {
+                padding-left: 0;
+                line-height: 24px;
+                padding-right: 34px;
+            }
+            .footer_derechos {
+                padding: 40px;
+            }
+            .region-footer-derechos ul li {
+                font-family: 'larsseit-light';
+                font-size: 15px;
+                line-height: 32px;
+            }
+            .redes-sociales {
+                width: 24.333333%;
+            }
+            .follow {
+                float: right;
+            }
+            .derechos-footer {
+                    width: 50%;
+                text-align: left;
+            }
+            .rights {
+                float: left;
+            }
+            .region-footer-derechos ul li {
+                font-family: 'larsseit-light';
+                font-size: 15px;
+                line-height: 32px;
+            }
+            .certificado {
+            width: 22.333333%;
+            } 
+            .path-acerca-de-nosotros .views-field-body {
+                top: 14%;
+            }
+            .path-acerca-de-nosotros .flex-control-nav {
+                width: 51px;
+                padding: 9px;
+                border-radius: 13px;
+            }
+
+            /*  corazon-colombia  */
+            .page-node-type-corazon-colombia .region-header {
+                padding-bottom: 0 !important;
+            }
+            .page-node-type-corazon-colombia .region-header h1 {
+                margin-bottom: 0;
+            }
+            .page-node-type-corazon-colombia .field--name-field-resumen a {
+                padding: 5px 15px;
+            }
+            .page-node-type-corazon-colombia .region-content .field--name-field-parrafo1-corazoncolombia {
+                padding: 63px 52px 18px 77px;
+            }
+            .page-node-type-corazon-colombia .field--name-field-imagen1-corazoncolombia {
+                padding: 63px 52px 18px 0px;
+            }
+
+            .page-node-type-corazon-colombia .field--name-field-imagen2-corazoncolombia {
+                padding: 0px 0px 20px 59px;
+            }
+            .page-node-type-corazon-colombia .field--name-field-parrafo2-corazoncolombia {
+                padding: 27px 50px 84px 45px;
+            }
+            .field--name-field-parrafo1-corazoncolombia p {
+            }
+            /* certificaciones
+            .main-container .field--name-field-imagen-contenido {
+                width: 25%;
+            }
+            .main-container section #field--name-body {
+                width: 70%;
+                float: right;
+            }
+            .main-container .field--type-text-with-summary {
+                float: none !important;
+            }
+            .main-container .field a {
+                display: none;
+            }
+            .comment-forbidden {
+                display: none !important;
+            } 
+            .certificaciones {
+            padding: 60px 0px 60px 0px;
+            }
+            .certificaciones  h2 {
+                width: 70%;
+                float: right;
+                text-transform:uppercase;
+            }
+            .certificaciones  h2 a span {
+                font-weight: 300;
+                color: #941c35;
+                margin: 5px 5px 5px 0;
+                font-size: 2.9rem;
+            }
+            */
+         
+
+}   
+
+
+   @media only screen and (max-width: 1366px) {
+                .wrapper {
+                width: 100%;
+                }
+            }

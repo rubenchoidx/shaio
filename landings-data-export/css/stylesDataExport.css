@@ -1,0 +1,86 @@
+@font-face {
+    font-family: '../fonts/latolight';
+    src: url('../fonts/lato-lig-webfont-webfont.woff2') format('woff2'),
+         url('../fonts/lato-lig-webfont-webfont.woff') format('woff');
+}
+@font-face {
+        font-family: 'latobold';
+    src: url('../fonts/lato-bol-webfont-webfont.woff2') format('woff2'),
+         url('../fonts/lato-bol-webfont-webfont.woff') format('woff');
+}
+body {
+    font-family: '../fonts/latolight';
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+main{flex: 1;}
+footer {
+    text-align: center;
+    color: #999999;
+    background: #fff;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+a {
+    color: #999999;
+}
+h1,h2,h3 span {
+    font-family: 'latobold';    
+}
+th {
+	font-weight: bold;
+}
+
+body {
+  color: #333;
+  background: transparent;
+  font-size: 13px !important;
+}
+header{background-color: #e5e5e5;}
+header h1{color: gray}
+.bg-rojo{background-color: #ED2128}
+.form-login{
+  width: 350px;
+  -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.5);
+  box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.5);
+}
+.form-login h4{background-color: #e5e5e5;border-bottom: 1px solid rgba(128, 128, 128, .5);}
+.form-login button{background-color: #f48594;color:#FFF;}
+.form-login button:hover{background-color:#ed2128;}
+.form-login label{color:#ed2128;}
+input.form-control, .btn{border-radius: 0;}
+.form-control:focus{box-shadow:none;}
+.nav-pills .nav-link{
+  font-size: 1.5rem;
+  border-radius: 0;
+}
+.nav-pills li:nth-child(1) .nav-link.active,
+.nav-pills li:nth-child(1) .nav-link:hover{
+  background-color: #337ab7;
+  color: #FFF;
+}
+.nav-pills li:nth-child(2) .nav-link.active,
+.nav-pills li:nth-child(2) .nav-link:hover{
+  background-color: #5cb85c;
+  color: #FFF;
+}
+.nav-pills li:nth-child(3) .nav-link.active,
+.nav-pills li:nth-child(3) .nav-link:hover{
+  background-color: #f0ad4e;
+  color: #FFF;
+}
+.nav-pills li:nth-child(4) .nav-link.active,
+.nav-pills li:nth-child(4) .nav-link:hover{
+  background-color: #f44336;
+  color: #FFF;
+}
+.reportrange{
+  background: #fff;
+  cursor: pointer;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  width: auto;  
+  font-size: 1rem;
+}

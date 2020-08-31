@@ -1,0 +1,64 @@
+ultimenu.settings:
+  type: config_object
+  label: 'Ultimenu settings'
+  mapping:
+    blocks:
+      type: sequence
+      label: 'Ultimenu blocks'
+      sequence:
+        - type: string
+          label: Block
+    regions:
+      type: sequence
+      label: 'Ultimenu regions'
+      sequence:
+        - type: string
+          label: region
+    skins:
+      type: string
+      label: 'Path to custom Ultimenu skins library'
+    goodies:
+      type: mapping
+      label: 'Ultimenu goodies'
+      mapping:
+        menu-desc:
+          type: string
+          label: 'Render menu description'
+        desc-top:
+          type: string
+          label: 'Menu description above menu title'
+        title-class:
+          type: string
+          label: 'Add TITLE class to menu item'
+        mlid-class:
+          type: string
+          label: 'Add shortened UUID class'
+        counter-class:
+          type: string
+          label: 'Add menu counter class'
+        no-tooltip:
+          type: string
+          label: 'Remove browser tooltip'
+        ultimenu-mlid:
+          type: string
+          label: 'Use shortened UUID, not TITLE, for Ultimenu region key'
+        force-remove-region:
+          type: string
+          label: 'Force remove Ultimenu region stored in <strong>@theme_default.info.yml</strong>'
+
+block.settings.ultimenu_block:*:
+  type: block_settings
+  label: 'Ultimenu block'
+  mapping:
+    skin:
+      type: string
+      label: 'Ultimenu skin'
+    orientation:
+      type: string
+      label: 'Flyout orientation'
+    submenu:
+      type: string
+      label: 'Render submenu'
+    submenu_position:
+      type: string
+      label: 'Submenu position'

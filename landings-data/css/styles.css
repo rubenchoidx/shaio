@@ -1,0 +1,89 @@
+@font-face {
+    font-family: '../fonts/latolight';
+    src: url('../fonts/lato-lig-webfont-webfont.woff2') format('woff2'),
+         url('../fonts/lato-lig-webfont-webfont.woff') format('woff');
+}
+@font-face {
+        font-family: 'latobold';
+    src: url('../fonts/lato-bol-webfont-webfont.woff2') format('woff2'),
+         url('../fonts/lato-bol-webfont-webfont.woff') format('woff');
+}
+body {
+    font-family: '../fonts/latolight';
+}
+footer {
+    text-align: center;
+    color: #999999;
+    background: #fff;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+footer a {
+    color: #999999;
+}
+h1,h2,h3 span {
+    font-family: 'latobold';
+}
+th {
+	font-weight: bold;
+}
+.huge {
+    font-size: 40px;
+	color: rgb(255,255,255);
+}
+.navbar-default {
+    background-color: #587faa;
+    border-color: #e7e7e7;
+    height: 110px;
+}
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+.azul {
+	background-color: #337ab7 !important;
+}
+.azul h1,h2,h3 {
+	color: rgb(255,255,255);
+}
+.verde {
+	background-color: #5cb85c !important;
+}
+.verde h1,h2,h3 {
+	color: rgb(255,255,255);
+}
+.azul h1,h2,h3 {
+	color: rgb(255,255,255);
+}
+.naranja {
+	background-color: #f0ad4e !important;
+}
+.naranja h1,h2,h3 {
+	color: rgb(255,255,255);
+}
+.rojo {
+	background-color: #f44336 !important;
+}
+.rojo h1,h2,h3 {
+	color: rgb(255,255,255);
+}
+
+body {
+  color: #333;
+  background: transparent;
+  font-size: 12px !important;
+}
+.fontMini{
+  font-size: 12px !important;
+}
+.frame {
+  width: 40%;
+  border-radius: 4px;
+  background: #ededed;
+  padding: 20px;
+  margin: 150px auto;
+}
+#svg {
+  width: 100%;
+  height: 300px;
+  min-height: 300px;
+}

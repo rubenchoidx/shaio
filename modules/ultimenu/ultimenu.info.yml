@@ -1,0 +1,14 @@
+name: Ultimenu
+type: module
+description: 'Provides Ultimenu blocks, and regions based on available menus.'
+# version: VERSION
+# core: 8.x
+configure: ultimenu.settings
+dependencies:
+  - drupal:block
+
+# Information added by Drupal.org packaging script on 2016-11-29
+version: '8.x-1.6'
+core: '8.x'
+project: 'ultimenu'
+datestamp: 1480435453

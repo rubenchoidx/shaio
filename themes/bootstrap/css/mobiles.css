@@ -1,0 +1,1793 @@
+
+/**********
+
+********************** estilos para mobiles **************************
+
+Desarrollado por : Indexcol;
+
+1. Estilos Encabezado
+2. Estilos menu
+3. Estilos slider
+4. Estilos footer
+
+
+**********/
+@media(max-width:665px){
+	#block-comollegarcontacto .field--name-body a:before {
+    display:none;
+}
+}
+
+@media(max-width:1276px){
+	.page-node-type-detalle-especialista div[class*="field--name-field-image"] {
+    width: 40%;
+}
+.page-node-type-detalle-especialista div[class*="field--name-field-email"] {
+    word-wrap: break-word;
+    width: 86%;
+}
+}
+@media(max-width:1280px){
+	.page-node-type-detalle-especialista div[class*="field--name-field-image"] {
+		width: 31%;
+	}
+	.page-node-type-detalle-especialista div[class*="field--name-field-email"] {
+	word-wrap: break-word;
+	width: 24%;
+}
+.page-node-type-detalle-especialista div[class*="field--name-field-telefono"] {
+padding-top: 17px;
+}
+}
+@media (max-width: 800px) and (min-width: 300px) { 
+	    .page-node-type-detalle-prensa .detalle-prensa .field--type-text-with-summary{
+	    	  word-wrap: break-word;
+	    }
+
+        .field--name-field-imagen-detalle img{
+               width: 100%;
+        }
+	    
+		.path-frontpage .main-container {
+			margin-top: 0;
+			padding: 22px;
+		}
+
+		.main-container {
+			padding: 15px 20px !important;
+			position: relative;
+			margin-top: 20px;
+		}
+
+/****** 1. Estilos Encabezado  **********/
+			
+
+			.logo img {
+			    width: 82%;
+			    display : block;
+			    margin:  0 auto;
+			}
+
+			.logo {
+			    position: relative;
+			    height: 80px;
+			    width: 89px;
+			    background-color: #ce2a29;
+			    left: 0;
+			    margin-right: 30px;
+			    margin: 0;
+			    z-index: 9;
+			}
+
+/****** 2. Estilos menu  **********/
+
+			.navbar-collapse.in {
+			    overflow-y: overlay;
+			    overflow-x: hidden;
+			    padding: 0;
+			}
+
+			.nav li a {
+			        padding: 12px 15px !important;
+			        font-size: 16px !important;
+			        text-align: left;
+			        height: 48px;
+			        font-weight    : normal !important;
+			        letter-spacing : 1px;
+			        background: rgb(162, 162, 162);
+			        color: white !important;
+			        border: 1px solid;
+			    }
+
+			.caret {
+				display: none;
+			}
+
+
+
+/****** 3. Estilos slider  **********/
+
+
+			
+
+			.body-site {
+				margin-top: 0px;
+				/* margin: 15px; */
+			}
+
+			.page-node-type-detalle-tratamiento .body-site {
+				margin-top: 0px;
+				margin: 0;
+			}
+
+
+			
+			.slider-home {
+			    display: block;
+			    position: relative;
+			    top: 72px;
+			}
+
+			.view-slider-home {
+			    width : 100%;
+			    height: 346px;
+			}
+
+			.view-slider-home img{
+			    height: 272px !important;
+			    transform: scaleX(3.5);
+			    width: 100%;
+			}
+
+			.view-slider-home .views-field-title{
+			    position:  absolute;
+			    top: 23%;
+			    font-size: 14px;
+			    line-height: 1;
+			    display: table-cell;
+			    vertical-align: middle;
+			    width: 68%;
+			    left: 15.4%;
+			    margin-right: 0;
+			    color: white;
+			    background: rgba(58, 57, 57, 0.51);
+			    padding: 19px;
+			    text-align: left;
+			    z-index: 99;
+			    height: 117px;
+			    border-radius: 3px;
+			}
+
+			.view-slider-home .views-field-title a{
+			    color: white;
+			}
+
+			.view-slider-home .views-field-field-link-slider a{
+			    top: 41%;
+			    position:  absolute;
+			    left: 20.7%;
+			    border: 1px solid #fff;
+			    border-radius: 3px;
+			    padding: 3px 30px;
+			    width: 48%;
+			    text-align: center !important;
+			    margin-top: 15px;
+			    background: rgba(249, 249, 249, 0.85);
+			}
+
+			.view-slider-home .views-field-field-link-slider a{
+			    font-weight: 600;
+			    color: #ce2a29;
+			    font-size: 14px;
+			    z-index: 999;
+			}
+
+			.view-slider-home .views-slideshow-controls-bottom{
+			    position: relative;
+			    z-index:  99;
+			    width: 100%;
+			}
+
+			.views_slideshow_controls_text_previous {
+			    background: url(../images/arrows.png) no-repeat left;
+			    left: 5px;
+			    right: auto;
+			    position: absolute;
+			    float: left;
+			    height: 60px;
+			    width: 11px;
+			    top: -110px;
+			    text-indent: 99999px;
+			    z-index: 9;
+			}
+
+			.views_slideshow_controls_text_next {
+			    background: url(../images/arrows.png) no-repeat right;
+			    right: 5px;
+			    position: absolute;
+			    float: right;
+			    height: 60px;
+			    width: 11px;
+			    top: -110px;
+			    text-indent: 99999px;
+			    z-index: 9;
+			}
+
+			.views_slideshow_controls_text_pause{
+				display: none;
+			}
+
+
+			.views-slideshow-controls-bottom .views-slideshow-pager-bullets {
+				text-align: center;
+				top: 12px;
+				left: 0;
+				width: 100%;
+				position: absolute;
+				right: 0;
+			}
+
+				.flex-control-nav {
+					width: 100%;
+					position: absolute;
+					bottom: -38px;
+					text-align: center;
+					z-index: 999;
+				}
+
+
+/****** 4. Estilos menu home rosado  **********/
+
+			.menuprincipalhome-home{
+				position:  relative;
+				margin-bottom: 12px;
+			}
+
+			.menu-principal-home {
+			    background: #F3B8B8;
+			}
+
+
+			.menu-principal-home .views-field-title {
+			    padding: 16px 30px;
+			    text-align: left;
+			    height: 88px;
+			    font-size: 14px !important;
+			}
+
+			.menu-principal-home .views-field-title a{
+			    text-align: left;
+			    height: 94px;
+			    font-size: 18px !important;
+			}
+
+
+
+			.menu-principal-home .destacado{
+			        color: white;
+			        text-align: left;
+			        transition: all .5s ease-in-out;
+			        -o-transition: all .5s ease-in-out;
+			        -moz-transition: all .5s ease-in-out;
+			        -webkit-transition: all .5s ease-in-out;
+			        height: 170px;
+			        font-size: 20px;
+			        position: relative;
+			        z-index: 999;
+			        border: 2px solid;
+			}
+
+
+			.menu-principal-home .destacado:hover{
+			        background: #FFFFFF;
+			        color:gray;
+			        text-align: left;
+			    transition: all .5s ease-in-out;
+			    -o-transition: all .5s ease-in-out;
+			    -moz-transition: all .5s ease-in-out;
+			    -webkit-transition: all .5s ease-in-out;
+			    cursor: pointer;
+
+			}
+
+			.menu-principal-home .destacado a{
+			    color:white;
+			    font-size: 1.2em;
+			}
+
+			.menu-principal-home .destacado:hover a{
+			    color:gray;
+			    font-size: 34px;
+			}
+
+			.menu-principal-home .views-field-body{
+			    margin-left: 33px;
+			}
+
+			.menu-principal-home .views-field-body:before {
+			    content: "";
+			    display: block;
+			    width: 20px;
+			    background-color: #ffffff;
+			    height: 2px;
+			     top: -14px;
+			    position: relative;
+			}
+
+			.menu-principal-home .destacado:hover .views-field-body:before {
+			    content: "";
+			    display: block;
+			    width: 20px;
+			    background-color: gray;
+			    height: 1px;
+			   
+			}
+
+
+/****** 4. Estilos content  **********/
+	
+
+				.home-block{
+					background: rgb(240, 241, 241);
+					position: relative;
+				}
+
+				.home-block .field--name-body{
+				        display: inline-block;
+				        vertical-align: middle;
+				        float: left;
+				        padding: 19px;
+				        background: #F48594;
+				        text-align: left;
+				    }
+
+				    .home-block .field--name-body p{
+				        font-size: 18px;
+				        line-height: 1;
+				        color: white;
+				    }
+
+				    .home-block .field--name-body h2{
+				            font-weight: 300;
+				            font-size: 3rem;
+				            margin-top: 10px;
+				            color: white;
+				        }
+				        
+
+				
+				.block-testimonios{
+				    display: inline-block;
+				    overflow: hidden;
+				    padding: 60px 10px;
+				    top: -15px;
+				}
+
+				.block-testimonios h2 {
+				    color       : rgb(134, 134, 134);
+				    font-weight : 600;
+				    font-family : 'larsseit-bold';
+				    font-size   : 30px;
+				    width       : 55%;
+				}
+
+				.block-testimonios hr {
+				    width  : 20px;
+				    border : 1px solid rgb(134, 134, 134);
+				    margin : 20px 0;
+				}
+
+				.block-testimonios p {
+				    font-size   : 18px;
+				    line-height : 1;
+				    font-weight : 500;
+				    font-family : 'larsseit';
+				    color       : rgb(134, 134, 134);
+				}
+
+				.block-testimonios a {
+				    color           : #FF8F9E;
+				    text-decoration : none;
+				    margin-top      : 100px;
+				    font-size       : 16px;
+				    padding-bottom  : 4px;
+				    display         : block;
+				    border-bottom   : 2px solid #FF8F9E;
+				    width           : 88px;
+				}
+
+				.slide-videos-testimonios{
+				    display: block;
+				    overflow: hidden;
+				    position:  relative;
+				    top: -36px;
+				    padding: 0;
+				}
+
+				.block-img-corazon{
+				    height: auto;
+				    display: inline-block;
+				    overflow: hidden;
+				    top: -33px;
+				    padding: 0;
+				}
+
+				.block-img-corazon img{
+					height: auto;
+					width: 100%;
+				}
+
+				.block-gente-text{
+				    height: auto;
+				    display: inline-block;
+				    overflow: hidden;
+				    padding: 10px;
+				    top: -15px;
+				}
+
+				.block-gente-text h2 {
+				    color       : rgb(134, 134, 134);
+				    font-weight : 600;
+				    font-family : 'larsseit-bold';
+				    font-size   : 30px;
+				    width       : 55%;
+				}
+
+				.block-gente-text hr {
+				    width  : 20px;
+				    border : 1px solid rgb(134, 134, 134);
+				    margin : 20px 0;
+				}
+
+				.block-gente-text p {
+				    font-size   : 18px;
+				    line-height : 1;
+				    font-weight : 500;
+				    font-family : 'larsseit';
+				    color       : rgb(134, 134, 134);
+				}
+
+				.block-gente-text a {
+				    color           : #FF8F9E;
+				    text-decoration : none;
+				    margin-top      : 100px;
+				    font-size       : 16px;
+				    padding-bottom  : 4px;
+				    display         : block;
+				    border-bottom   : 2px solid #FF8F9E;
+				    width           : 88px;
+				}
+
+				.block-text-actualidad{
+				    height: auto;
+				    display: inline-block;
+				    overflow: hidden;
+				    padding: 10px;
+				    top: -17px;
+				    margin-bottom: 90px;
+				}
+
+				.block-text-actualidad h2 {
+				    color       : rgb(134, 134, 134);
+				    font-weight : 600;
+				    font-family : 'larsseit-bold';
+				    font-size   : 30px;
+				    width       : 55%;
+				}
+
+				.block-text-actualidad hr {
+				    width  : 20px;
+				    border : 1px solid rgb(134, 134, 134);
+				    margin : 20px 0;
+				}
+
+				.block-text-actualidad p {
+				    font-size   : 18px;
+				    line-height : 1;
+				    font-weight : 500;
+				    font-family : 'larsseit';
+				    color       : rgb(134, 134, 134);
+				}
+
+				.block-text-actualidad a {
+				    color           : #FF8F9E;
+				    text-decoration : none;
+				    margin-top      : 100px;
+				    font-size       : 16px;
+				    padding-bottom  : 4px;
+				    display         : block;
+				    border-bottom   : 2px solid #FF8F9E;
+				    width           : 88px;
+				}
+
+				.page-node-type-institucional .block-slider-actualidad{
+				    height: 257px;
+				    display: inline-block;
+				    overflow: hidden;
+				    padding: 0;
+				    top: 10px;
+				}
+
+
+				.block-slider-actualidad{
+				    height: auto;
+				    display: inline-block;
+				    overflow: hidden;
+				    top: -73px;
+				    padding: 0;
+				}
+
+				.block-slider-actualidad .views-slideshow-pager-bullets{
+				    position: absolute;
+				    left: 0;
+				    top: 85%;
+				    right: 0;
+				    z-index: 99;
+				}
+
+				.eventos-home{
+				    position:  relative;
+				    /* top: -25px; */
+				}
+
+				.eventos-content{
+				    background: #A4A4A4;
+				    width: 100%;
+				    padding: 10px;
+				}
+
+				.view-eventos{
+				    position: relative;
+				    margin: 0 auto;
+				}
+
+				.view-eventos .evento-2-home{
+				    min-height: 419px;
+				    padding: 40px 37px;
+				    background: #fff;
+				}
+
+
+				.view-eventos .evento-2-home .views-field-field-dia-evento{
+				    color: #868686;
+				    font-size: 30px;
+				    display: block;
+				    line-height: 1;
+				    font-family: 'larsseit-bold';
+				    width: 20px;
+				}
+
+				.view-eventos .evento-2-home .views-field-field-informacion-corta-evento a{
+				     color: #868686;
+				     font-size: 2rem;
+				}
+
+				.view-eventos .evento-2-home .views-field-field-tiempo-de-evento-{
+				    color: #868686;
+				    font-size: 12pt;
+				    line-height: 23px;
+				    display: inline-block;
+				    width: 90%;
+				    padding-left: 10px;
+				    position: absolute;
+				    bottom: 134px;
+				}
+
+				.view-eventos .evento-2-home .views-field-field-ubicacion-de-evento{
+				    color: #868686;
+				    font-size: 17px;
+				    line-height: 23px;
+				    display: inline-block;
+				    width: 80%;
+				    padding-left: 10px;
+				    bottom: 52px;
+				    position: absolute;
+				}
+
+				.view-eventos .evento-1-home{
+				    min-height: 419px;
+				    padding: 40px 37px;
+				    background: #f3b8b8;
+				}
+
+
+
+				.view-eventos .evento-1-home .views-field-field-dia-evento{
+				    color: #fff;
+				    font-size: 30px;
+				    display: block;
+				    line-height: 1;
+				    font-family: 'larsseit-bold';
+				    width: 20px;
+				}
+
+				.view-eventos .evento-1-home .views-field-field-informacion-corta-evento a{
+				     color: #fff;
+				     font-size: 2rem;
+				}
+
+				.view-eventos .evento-1-home .views-field-field-tiempo-de-evento-{
+				    color: #fff;
+				    font-size: 16px;
+				    line-height: 23px;
+				    display: inline-block;
+				    width: 90%;
+				    padding-left: 10px;
+				    position: absolute;
+				    bottom: 130px;
+				}
+
+				.view-eventos .evento-1-home .views-field-field-ubicacion-de-evento{
+				    color: #fff;
+				    font-size: 18px;
+				    line-height: 23px;
+				    display: inline-block;
+				    width: 80%;
+				    padding-left: 10px;
+				    bottom: 52px;
+				    position: absolute;
+				}
+
+	/***** 4. Estilos footer  ******/
+
+				.footer-map{
+				    display: inline-block;
+				    margin: 0 1em;
+				    vertical-align: top;
+				    height: 100%;
+				    width: 100% !important;
+				    float: left;
+				    text-align: left;
+				    padding: 10px;
+				    /* background: #ccc; */
+				}
+
+				#block-footeritems ul{
+					padding:0px;
+				}
+
+
+				.footer {
+				    margin-top: 45px;
+				    padding-top: 35px;
+				    padding-bottom: 36px;
+				    border-top: 1px solid #E5E5E5;
+				    background: #e5e5e5;
+				}
+
+				.header_footer_inner {
+				    margin : 0px 0px 5px;
+				}
+
+				.header_footer h4, .header_footer_inner h4 {
+				    border-bottom: 1px solid #b1afaf;
+				    width          : 90%;
+				    padding-bottom : 10px;
+				    font-size      : 12px;
+				}
+
+				.header_footer a, .header_footer_inner a {
+				    color : #7b7b7b;
+				    font-weight: 600;
+				}
+
+
+				.certificado img{
+				    width: 62px !important;
+				    left: 16%;
+				    position: relative;
+				    margin-bottom: 23px;
+				}
+
+				.footer_derechos{
+				    width: 100%;
+				    background: white;
+				    /* height: 228px; */
+				    padding: 20px 0px;
+				}
+
+				.content_empleados span.line {
+					/* display: none; */
+				}
+
+				#block-comollegarcontacto{
+					padding: 24px 43px;
+					font-size: 13pt;
+					line-height: 41px;
+				}
+
+				.page-node-type-como-llegar .main-container .field--name-body {
+					font-family: 'larsseit-light';
+					font-size: 20px;
+					line-height: 25px;
+					padding: 66px 30px;
+				}
+
+				.page-node-type-detalle-especialista div[class*="field--name-field-image"]{
+								  float:left;
+								  height: 309px;
+								  width: 100%;
+								  border: 1px solid #c8c7c7;
+								  padding: 10px;
+								}
+
+								.page-node-type-detalle-especialista div[class*="field--name-field-title"]{
+								  float:left;
+								  width: 100%;
+								  font-size: 1.7em;
+								  color: #941c35;
+								  height: 102px;
+								  padding: 10px 22px;
+								  border-bottom: 1px solid #c8c7c7;
+								  border-top: 1px solid #c8c7c7;
+								  margin-top: 139px;
+								}
+
+								.page-node-type-detalle-especialista div[class*="field--name-field-telefono"]{
+								  font-size: 1.2em;
+								  width: 100%;
+								  height: 85px;
+								  float: left;
+								  position: relative;
+								  border-bottom: 1px solid #c8c7c7;
+								  border-top: 1px solid #c8c7c7;
+								  padding: 20px;
+								  display: inline-block;
+								  vertical-align:middle;
+								  line-height:normal;
+								}
+
+								.page-node-type-detalle-especialista div[class*="field--name-field-cargo"]{
+								  font-size: 1.1em;
+								  width: 70%;
+								  height: 27px;
+								  position: absolute;
+								  left: 10%;
+								  top: 324px;
+								  font-weight: 600;
+								}
+
+								.page-node-type-detalle-especialista div[class*="field--name-field-email"]{
+								  font-size: 1.2em;
+								  width: 100%;
+								  height: 144px;
+								  float: left;
+								  position: relative;
+								  padding: 20px;
+								  border-bottom: 1px solid #c8c7c7;
+								  border-right: 0px solid #c8c7c7;
+								  border-top: 1px solid #c8c7c7;
+								}
+								
+								.path-directorio-medico .view-busca-tu-especialista .views-row{
+									  height: 493px;
+									  width: 100%;
+									  margin: 7px;
+									  background: #e5e5e5;
+									  padding: 30px;
+									  text-align:  center;
+									  position: relative;
+									  margin: 0 auto;
+									}
+
+
+
+		
+
+}
+
+
+
+@media(max-width:430px){
+	.eventos-miclase .content #field--name-body {
+    width: 100% !important;
+    }
+
+     .page-node-type-detalle-tratamiento .main-container #block-redessocialesshaio .field--name-body{
+      width: 100%;
+      margin: 10px;
+      float: right;
+      right: 10px;
+      position: relative;
+    }
+
+    .page-node-type-detalle-prensa  .main-container #block-redessocialesshaio .field--name-body{
+      width: 81%;
+      margin: 18px;
+      float: left;
+      position: relative;
+      padding: 0;
+      right: 0;
+      left: 0px;
+    }
+
+    .page-node-type-home-educacion #block-bloque2-educacion-e-investigacion {
+          background-color: #ce2a29;
+          padding: 21px;
+          margin-top: 20px;
+          margin-bottom: 20px;
+      }
+
+
+    .page-node-type-detalle-tratamiento .main-container #block-redessocialesshaio .st_facebook_large{
+      float:left;
+      width: 33%;
+    }
+
+
+    .page-node-type-detalle-prensa .main-container #block-redessocialesshaio .st_facebook_large{
+      float: left;
+      width: 33%;
+    }
+
+
+
+
+
+    .page-node-type-detalle-tratamiento .main-container #block-redessocialesshaio .st_twitter_large{
+      width:33%;
+      float:left;
+    }
+
+
+    .page-node-type-detalle-prensa .main-container #block-redessocialesshaio .st_twitter_large{
+      width:33%;
+      float:left;
+    }
+
+
+
+
+
+
+    .page-node-type-detalle-tratamiento .main-container #block-redessocialesshaio .st_googleplus_large{
+      width:33%;
+      float:left;
+    }
+
+    .page-node-type-detalle-prensa  .main-container #block-redessocialesshaio .st_googleplus_large{
+      width:33%;
+      float:left;
+    }
+    
+    .view-prensa ul .col-md-2 {
+          height: 387px;
+          border: 1px solid #dad3d3;
+          margin: 10px;
+          padding: 0;
+          list-style: none;
+          float: left;
+          margin-left:0px;
+      }
+
+      .form-item, .form-actions {
+          width: 100% !important;
+          float:left;
+          margin-top: 0;
+          margin-bottom: 0;
+          padding: 5px;
+          margin-left: -1px;
+		  text-align: center;
+		  display: contents;
+      }
+
+      .form-type-radio {
+          width: 50% !important;
+          float:left;
+          margin-top: 0;
+          margin-bottom: 0;
+          padding: 5px;
+          margin-left: -1px;
+          text-align: left;
+      }
+      
+
+      .fieldset-wrapper {
+          text-align: center;
+          color: #941c35;
+          font-size: 13px;
+          text-transform: uppercase;
+      }
+
+      .view-filters .form-item .control-label:before{
+          content:"";
+          width: 2px;
+          height: 12px;
+          background-color: #524e4e;
+          display:block;
+          position:absolute;
+          left:-5px;
+          top: 8px;
+      }
+
+      
+
+      .form-type-radio{
+        width:50%;
+        float:left;
+		color: #191818;
+		display: block;
+      }
+
+      
+      label[for$=value-3]:before,label[for$=value-5]:before, label[for$=value-7]:before, label[for$=value-9]:before, label[for$=value-11]:before{
+
+        width:0px !important;
+
+
+
+      }
+
+      #field--name-field-youtube-link iframe {
+        width: 100%;
+        height: 200px;
+    }
+
+    .page-node-type-detalle-tratamiento .field--name-field-youtube-link {
+        width: 100%;
+        float: left;
+        height: 250px;
+    }
+
+    .view-sliders-de-videos-servicios{
+      margin: 20px
+    }
+
+    .view-sliders-de-videos-servicios h1{
+      font-size: 19px;
+      margin-bottom: 4px;
+    }
+
+    .path-convenios, view-convenios-bloque{
+        margin-top: 250px;
+      }
+
+       .view-id-convenios_bloque .view-filters .control-label {
+            font-size: 13px !important;
+        }
+
+        .view-id-convenios_bloque .item-convenios {
+            padding: 30px 10px;
+            text-align: center;
+            font-size: 13px;
+            height: 95px;
+            background: rgba(148, 148, 148, 0.5);
+            margin-bottom: 4px;
+            /* color: white !important; */
+            text-transform: uppercase;
+            width: 46%;
+            float: left;
+            margin-left: 4px;
+        }
+
+        .view-id-convenios_bloque .item-convenios a {
+            text-decoration: none;
+            font-size: 12px;
+            color: #2b2a2a;
+        }
+
+        .page-node-type-plantilla-imagen-texto .field--name-field-contenido img{
+          height: auto !important;
+          margin: 2px;
+          float: right;
+          width: 100%;
+          margin-bottom: 30px;
+        }
+
+        .view-busca-tu-especialista form {
+            border: 1px solid #e5e5e5;
+            width: 100%;
+            position: relative;
+            margin: 0 auto;
+            background: #f7f7f7;
+            padding: 30px;
+            font-size: 13pt;
+            height: 167px;
+            margin-bottom: 101px;
+            top: 70px;
+        }
+
+        .view-busca-tu-especialista form input[type="text"]{
+          top: 3px;
+          position: relative;
+          font-size: 14px;
+          width: 236px;
+          padding: 21px;
+        }
+        .view-busca-tu-especialista form input[type="text"]:focus{
+          top: 3px;
+          position: relative;
+          border-color: #ce2a2973;
+          font-size: 14px;
+          box-shadow: initial;
+        }
+
+        .view-busca-tu-especialista form .form-type-textfield{
+
+              width: 300px !important;
+              padding: 26px;
+              position: absolute;
+              left: 7px;
+        }
+
+
+
+        .view-busca-tu-especialista form .form-submit{
+
+        	position:absolute;
+			bottom: 61px;
+			right: 39px;
+			background: url('/themes/bootstrap/images/search-solid.svg');
+			background-size: contain;
+			height: 38px;
+			width: 18px;
+			text-indent: -9999px;
+			border: none !important;
+			background-color: #f7f7f7 !important;
+			box-shadow: initial;
+
+			}
+
+
+          .view-busca-tu-especialista form .form-type-textfield label{
+
+top: -82px;
+
+position: absolute;
+
+left: -7px;
+
+background: #f7f7f7;
+
+padding: 15px;
+
+cursor: pointer;
+
+border: 1px solid #e5e5e5;
+
+border-bottom: none;
+
+width: 61%;
+
+font-size: 17px;
+}
+
+        .view-busca-tu-especialista form .form-type-select label{
+
+left: 47%!important;
+
+top: -82px;
+
+left: 89px;
+
+position: absolute;
+
+background: #e5e5e5;
+
+padding: 16px;
+
+cursor: pointer;
+
+border: 1px solid #e5e5e5;
+
+border-bottom: none;
+
+width: 68%;
+
+font-size: 17px;
+}
+
+        .path-directorio-medico .view-busca-tu-especialista .views-row {
+            height: 493px;
+            width: 100%;
+            margin: 1px;
+            background: #e5e5e5;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .path-seguridad-del-paciente .quicktabs-tabs {
+            display: block;
+            width: 100%;
+            float: left;
+            top: 5px;
+            left: -35px;
+            position: relative;
+        }
+
+        .path-seguridad-del-paciente .quicktabs-main {
+            width: 100%;
+            float: left;
+            background: white;
+            padding: 50px 23px;
+        }
+
+        .path-seguridad-del-paciente .main-container {
+            padding: 0px !important;
+            position: relative;
+        }
+
+        .path-seguridad-del-paciente .quicktabs-tabs li {
+            width: 90%;
+            float: left;
+            padding: 20px;
+            background: #e5e5e5;
+        }
+
+        .page-node-type-paciente-internacional .main-container .field--name-body {
+            width: 100%;
+            float: left;
+            padding: 30px !important;
+            font-size: 14px;
+        }
+
+        .page-node-type-paciente-internacional .main-container .field--name-field-introducci-n {
+              width: 100%;
+              float: left;
+              color: grey;
+          }
+
+          .page-node-type-paciente-internacional .quicktabs-tabs {
+              display: none;
+              width: 100%;
+              float: left;
+              padding: 0;
+              margin-top:20px;
+          }
+
+          .page-node-type-paciente-internacional .quicktabs-main {
+              width: 100%;
+              float: left;
+              background: white;
+              padding: 5px;
+              font-size: 16px;
+              color: #8a8680;
+          }
+
+          .page-node-type-paciente-internacional .quicktabs-main .views-field-body a{
+          	text-align: right;
+          	width: 30%;
+          	position: relative;
+          	float: right;
+          	color: #962039;
+          	padding: 10px 0px;
+          	text-decoration:underline;
+          }
+
+        
+
+          .page-node-type-paciente-internacional #field--name-body {
+                padding: 0px;
+            }
+
+            #block-contactanos-paciente-internacional {
+                background: #ce2a29;
+                width: 93%;
+                position: relative;
+                margin: 0 auto;
+                color: white;
+                margin-bottom: 20px;
+                margin-top: 14px;
+                height: 290px;
+            }
+
+            .page-node-type-paciente-internacional #field--name-field-introducci-n {
+                  padding: 10px 30px;
+              }
+
+               #block-bloque2-educacion-e-investigacion ul{
+
+                 width:100%;
+                 float:left;
+               }
+
+               #block-bloque1-educacion-e-investigacion ul{
+
+                 width:100%;
+                 float:left;
+               }
+
+               .page-node-type-home-educacion #block-bloque1-educacion-e-investigacion h2 {
+                    margin-bottom: 30px;
+                    color: #8a8680;
+                    padding: 0 0 0px 0px;
+                }
+
+                .page-node-type-home-educacion #block-bloque1-educacion-e-investigacion {
+                    margin: 0;
+                    padding: 16px;
+                    background: #fff;
+                }
+
+                .page-node-type-home-educacion #block-bloque2-educacion-e-investigacion h2 {
+                    margin-bottom: 30px;
+                    color: #fff;
+                    padding: 0 0 0px 0px;
+                }
+
+                .page-node-type-educacion .menusectionscontainer-home{
+					  position: absolute;
+					  text-align: center;
+					  padding: 8px;
+					  width: 94%;
+					  border-bottom: 0px solid #e4e0e0;
+					  background: white;
+					  z-index: 999;
+					  height: auto;
+					}
+
+					.menusectionscontainer-home ul li {
+						list-style: none;
+						display: inline-block;
+						margin: 0 0px 0 5px;
+						font-family: Arial;
+						font-size: 11px;
+						text-decoration: none;
+						padding: 5px;
+						color: #fff;
+						position: relative;
+					}
+
+					.page-node-type-educacion .menusectionscontainer-home ul li:before {
+							content: "";
+							width: 3px;
+							height: 13px;
+							background-color: #827878;
+							display: block;
+							position: absolute;
+							left: -4px;
+							top: 6px;
+						}
+
+						.page-node-type-educacion img {
+							height: auto;
+							margin: 0 auto;
+						}
+					.page-node-type-educacion{
+
+						margin-top:85px
+
+					}
+
+					.menusectionscontainer-home ul{
+						padding:0;
+					}
+
+					.page-node-type-educacion .main-container h1{
+
+font-size: 22px;
+
+padding-top: 20px !important;
+
+border-top: 1px solid #e0dcdc;
+
+margin-top: 20px;
+}
+
+					.menusectionscontainer-home ul li a {
+						font-size: 11px;
+						text-transform: uppercase;
+						font-weight: 600;
+						color: #3c3838;
+					}
+
+					.page-node-type-investigacion-tercera
+					.menusectionscontainer-home{
+					  position: absolute;
+					  text-align: center;
+					  padding: 10px;
+					  width: 100%;
+					  border-bottom: 0px solid #e4e0e0;
+					  background: white;
+					  z-index: 999;
+					  height: 61px;
+					}
+					
+					.page-node-type-investigacion-tercera
+					.menusectionscontainer-home ul li:before{
+						content:"";
+						width: 3px;
+						height: 13px;
+						background-color: #827878;
+						display:block;
+						position:absolute;
+						left: -7px;
+						top: 6px;
+					}
+					
+					.page-node-type-investigacion-tercera article img {
+						width: 100% !important;
+						height: auto !important;
+						margin-bottom: 20px;
+					}
+
+					.page-node-type-investigacion-tercera .radio label, .checkbox label {
+						min-height: 20px;
+						padding-left: 0px;
+						margin-bottom: 0;
+						font-weight: normal;
+						cursor: pointer;
+						font-size: 11px;
+					}
+
+					.path-medicos-investigadores .radio label, .checkbox label {
+						min-height: 20px;
+						padding-left: 0px;
+						margin-bottom: 0;
+						font-weight: normal;
+						cursor: pointer;
+						font-size: 11px;
+					}
+
+					.page-node-type-investigacion-tercera .main-container h1, .page-node-type-investigacion-tercera .main-container h2{
+
+						font-size:19px;
+					}
+
+					.page-node-type-investigacion-tercera .main-container h1{
+
+									font-size: 22px;
+
+									padding-top: 20px !important;
+
+									border-top: 1px solid #e0dcdc;
+
+									margin-top: 20px;
+
+									margin-bottom: 1em;
+
+					}
+
+					.page-node-type-comite .main-container h1{
+
+					font-size: 22px;
+
+					padding-top: 20px !important;
+
+					border-top: 1px solid #e0dcdc;
+
+					margin-top: 24px;
+
+					}
+
+					.menusectionscontainer-home {
+						position: absolute;
+						text-align: center;
+						padding: 10px;
+						width: 100%;
+						border: 0px solid #e4e0e0;
+						background: white;
+						z-index: 999;
+						height: 2.4%;
+					}
+
+					.menusectionscontainer-home ul li:before {
+							content: "";
+							width: 3px;
+							height: 14px;
+							background-color: #827878;
+							display: block;
+							position: absolute;
+							left: -6px;
+							top: 6px;
+						}
+
+				   .page-node-type-comite .radio label, .checkbox label {
+						min-height: 20px;
+						padding-left: 0px;
+						margin-bottom: 0;
+						font-weight: normal;
+						cursor: pointer;
+						font-size: 11px;
+					}
+
+					.page-node-type-comite .view-miembros-de-comite- {
+							text-align: center;
+							margin: 11px -15px;
+							font-size: 14px;
+							height: 394px;
+						}
+
+					.page-node-type-comite .main-container .field--name-body h1 {
+						line-height: 2em;
+						font-size:19px
+					}
+
+					#miembros-comite li{
+					}
+					#slider_home_principal .flex-direction-nav{
+						display: none;
+					}
+					.page-node-type-comite .flex-direction-nav .flex-next {
+						margin-right: 20px;
+						background: url(/themes/bootstrap/images/arrowsRed_2.fw.png) no-repeat right;
+						text-indent: 99999px;
+						width: 20px;
+						position: absolute;
+						right: 0px;
+						top: 44%;
+					}
+
+					.page-node-type-equipo-de-trabajo .field--name-field-image {
+						width: 100%;
+						float: left;
+						height: auto;
+					}
+
+					.page-node-type-equipo-de-trabajo .main-container .field--name-body {
+						width: 100%;
+						float: left;
+					}
+
+					.page-node-type-equipo-de-trabajo .field--name-field-image img {
+						height: auto;
+						margin: 0px;
+						margin-top: 18px;
+					}
+
+					.page-node-type-electronica .main-container img {
+							width: 100%;
+							height: auto;
+							margin: 0px;
+							float: left;
+						}
+
+					.page-node-type-electronica .main-container .field--name-body {
+						padding: 30px 9px !important;
+					}
+
+					.page-node-type-electronica  .menusectionscontainer-home {
+							position: absolute;
+							text-align: center;
+							padding: 0px;
+							width: 100%;
+							border: 0px solid #e4e0e0;
+							background: white;
+							z-index: 999;
+							height: auto;
+						}
+
+						.view-slider-electronica .views-field-body {
+								font-size: 1em;
+								position: relative;
+								color: white;
+								margin: 0 auto;
+								position: absolute;
+								margin-top: 30%;
+								left: 0;
+								right: 0;
+								padding: 0px 10px !important;
+							}
+
+							.view-slider-electronica h1 {
+								color: white;
+								text-align: center;
+								top: 48px;
+								position: relative;
+								font-size: 1.7em;
+								text-transform: uppercase;
+							}
+
+							.view-slider-medicos-adscritos h1 {
+							    color: white;
+							    text-align: center;
+							    top: 21px;
+							    position: relative;
+							    font-size: 1.2em;
+							    text-transform: uppercase;
+							}
+
+							.view-slider-medicos-adscritos .views-field-body {
+								font-size: 1em;
+								position: relative;
+								color: white;
+								margin: 0 auto;
+								position: absolute;
+								margin-top: 30%;
+								left: 0;
+								right: 0;
+								padding: 16px;
+							}
+
+							.page-node-type-medicos-adscritos h1{
+
+								font-size:19px;
+
+							}
+
+							.view-id-publicaciones_y_recursos_vista2 .views-row {
+							    border-bottom: 1px solid #e0dada;
+							    padding: 9px;
+							    text-align: justify;
+							    height: 438px;
+							    margin: 0px;
+							    margin-bottom: 20px;
+							}
+
+							#block-bloquecasos-medicos-publicaciones-y-recursos .field--name-body{
+								height: 260px;
+							}
+
+							.page-node-type-video .youtube-container iframe{
+
+								width:100%;
+
+							}
+
+							#block-bloquecasos-medicos-publicaciones-y-recursos a{
+							  padding: 10px;
+							  width: 398px;
+							  background: #941C35;
+							  text-transform: uppercase;
+							  color: white;
+							  font-size: 15pt;
+							  position: relative;
+							  top: 33px;
+							}
+
+							 .page-node-type-pacientes-y-familia .videoservicios form input[type="text"]{
+							  top: 20px;
+							  position: relative;
+							  font-size: 11pt !important;
+							  border: none;
+							  box-shadow: none;
+							  text-align: center;
+							  left: -20px;
+							}
+
+							.page-node-type-pacientes-y-familia .videoservicios form input[type="text"]::placeholder{
+								font-size:11pt !important;
+								color:grey !important;
+							}
+
+
+							.page-node-type-pacientes-y-familia .videoservicios form input[type="text"]:focus{
+							  top: 20px;
+							  position: relative;
+							  border-color: #ce2a2973;
+							  font-size: 11pt !important;
+							  box-shadow: initial;
+							}
+
+							.page-node-type-investigacion-tercera .main-container {
+								padding: 15px 20px !important;
+								position: relative;
+								margin-top: 26px;
+							}
+
+							.view-paciente-internacional button{
+								text-align:left;
+								width:80%;
+								cursor: pointer;
+							}
+
+
+							.view-paciente-internacional button .text{
+								color: #8b8781;
+							}
+
+							.view-paciente-internacional button .text:after {
+							    content: "+";
+							    color: #ce2a29;
+							    height:30px;
+							    width: 49px;
+							    position: absolute;
+							    font-size: 30pt;
+							    top: -10px;
+							    right: -28px;
+							}
+
+							.quicktabs-tabs{
+							  display: none;
+							}
+
+							.page-node-type-paciente-internacional .quicktabs-tabs li {
+							    width: 100%;
+							    float: left;
+							    padding: 5px 19px;
+							    background: #e5e5e5;
+							}
+
+							.title-movil{
+								display: block;
+							}
+
+							.volver-pacientes{
+								display: block;
+							}
+
+							.view-seguridad-del-paciente .quicktabs-tabs li{
+								padding: 5px 20px;
+							}
+
+							.page-node-type-paciente-internacional  .quicktabs-main ul{
+
+								padding: 5px 0px;
+							}
+
+							.view-busca-tu-especialista form .form-type-textfield:before {
+									top: -128px;
+									position: absolute;
+									left: -7px;
+									background: #adaaaa;
+									padding: 10px;
+									cursor: pointer;
+									border: 1px solid #e5e5e5;
+									border-bottom: none;
+									width: 126%;
+									color: white;
+									content: "Busca tu especialista por:";
+									font-size: 18px;
+								}
+
+								    .view-detalle-actualidad-investigacion    .item-actualidad{
+
+									width: 100%;
+									}
+
+/* estilos responsive */
+/* home */
+#slider_shaio123 .flex-direction-nav{
+	display: none;
+}
+#slider_shaio123 .flex-control-nav{
+	text-align: center !important;
+    margin-left: 0%;
+	margin-right: 0%;
+	bottom: 0px;
+	display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#slider_shaio123 .views-field-title{
+	padding: 20px !important;
+	font-size: 18px;
+	overflow-wrap: break-word;
+	left: 0;
+}
+#slider_shaio123 .views-field-field-linkarticulo a{
+	margin-top: 20% !important;
+	margin-bottom: 15%;
+	padding: 20px;
+	display: none;
+}
+#slider_shaio123 .views-field-field-textocontenido{
+	padding: 5px 0px 40px 20px !important;
+	left: 0;
+	width: 90%;
+}
+#slider_shaio123 .views-field-field-imagen-actualidad{
+	width: 100% !important;
+}
+#slider_shaio123 .views-field-field-textocontenido .field-content{
+	width: 90%;
+}
+.home-block .field--name-body p, .block-testimonios p{
+	font-size: 15px;
+}
+h2{
+	font-size: 18px !important;
+}
+p{
+	font-size: 15px !important;
+}
+.content_empleados a.btn_1{
+	font-size: 15px !important;
+}
+.home-block .field--name-body h2, .block-testimonios h2{
+	font-size: 18px;
+}
+
+.menu-principal-home .destacado{
+	height: 150px;
+}
+.menu-principal-home .views-field-title{
+	height: auto;	
+}
+#block-testimonios, #block-gentedebuencorazonmoviles{
+	margin: 20px;
+}
+.block-gente-text a{
+	margin-top: 7%;
+}
+/* footer */
+ul.copy{
+	margin: 10px;
+}
+ul.copy > li{
+	width: 100% !important;
+	word-break: inherit !important;
+}
+.view-certificaciones .views-field-field-imagen-contenido{
+	float: none;
+}
+.path-informes-de-gestion .main-container{
+	padding: 0px 50px 20px!important;
+}
+/* servicios */
+.path-servicios .body-site{
+	margin-top: 0px;
+}
+.view-servicios .views-row{
+	width: 45%;
+    margin: 5px;
+}
+.stButton2{
+	top: 0px !important;
+}
+/* paciente familia */
+#block-antesdetucitaoprocedimiento{
+	padding: 37px 80px 34px 45px !important;
+}
+#block-duranteydespues{
+	padding: 37px 68px 34px 45px !important;
+}
+#block-pacienteinternacional{
+	padding: 50px !important;
+}
+#block-mecuidoparacuidarte{
+	padding: 50px !important;
+}
+#block-recomendacionesdeconservacionytransportedelechematerna{
+	padding: 50px !important;
+}
+/* Paciente internacional */
+#block-contactanos-paciente-internacional{
+	height: 400px;
+}
+/* institucional - rte esal */
+.equipo-de-trabajo table tbody tr td{
+	display: block;
+}
+/* publicaciones y recursos */
+.view-id-publicaciones_y_recursos_vista2 .views-row img{
+	width: 100%;
+}
+/* Blog Vital */
+.path-blog-vital .view-blog-vital .views-field-title{
+	height: auto;
+}
+.path-blog-vital .view-blog-vital .views-field-body{
+	display: none;
+}
+.path-blog-vital .view-blog-vital .views-field-title h4{
+	font-size: 15px;
+}
+.path-blog-vital .view-blog-vital .views-field-field-fecha{
+	padding: 1px;
+	font-size: x-small;
+}
+.view-id-blog_vital .views-row{
+	background: #fff;
+	height: 200px;
+	width: 45%;
+    float: left !important;
+    margin: 5px;
+}
+.path-blog-vital .main-container{
+	padding: 15px 20px !important;
+    position: relative;
+    margin-top: 20px;
+}
+/* fin estilos responsive */
+
+									
+}
+@media(max-width:1376px){
+.registrorteclass .equipo-de-trabajo a {
+    width: 102%;
+}
+.registrorteclass .equipo-de-trabajo a:hover {
+    width: 102%;
+}
+}
+@media(max-width:430px){
+.registrorteclass .equipo-de-trabajo a {
+    left: -10px;
+}
+.registrorteclass .equipo-de-trabajo a:hover {
+    left: -10px;
+}
+}
+
+

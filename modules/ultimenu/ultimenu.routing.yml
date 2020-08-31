@@ -1,0 +1,7 @@
+ultimenu.settings:
+  path: '/admin/structure/ultimenu'
+  defaults:
+    _form: '\Drupal\ultimenu\UltimenuSettingsForm'
+    _title: 'Ultimenu'
+  requirements:
+    _permission: 'administer ultimenu'

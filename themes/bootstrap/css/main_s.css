@@ -1,0 +1,792 @@
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { ... }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { ... }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
+
+
+
+
+
+#form-buscar .button{
+    background: none;
+    border: 1px solid rgb(134, 134, 134);
+}
+
+#form-buscar .form-search{
+    border-radius:0px;
+    border:1px solid rgb(134, 134, 134);
+    background:none
+}
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    z-index: 3;
+    color: #fff !important;
+    cursor: default;
+    background-color: #ce2a29;
+    border-color: #e5e5e5;
+}
+
+#block-bloque1-mi-cuenta h2{
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+#block-bloque1-mi-cuenta a{
+    font-size:1.5em;
+    margin-bottom: 30px;
+}
+
+#block-bloque1-mi-cuenta{
+    text-align:-webkit-center;
+    height: 300px;
+    line-height: 50px;
+}
+
+
+#block-bloque2-mi-cuenta h2{
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+#block-bloque2-mi-cuenta a{
+    font-size:1.5em;
+    margin-bottom: 30px;
+    border-radius: 7px;
+}
+
+#block-bloque2-mi-cuenta{
+    text-align:-webkit-center;
+    line-height: 50px;
+    height:300px;
+}
+
+.block-micuenta .enviar{
+    padding: 16px;
+    background: #941c35;
+    margin-bottom: 47px;
+    color: white;
+    width: 400px;
+    position: relative;
+    font-size: 14pt;
+    text-transform: uppercase;
+}
+
+.bloque-micuenta .enviar{
+    padding: 16px;
+    background: #941c35;
+    margin-bottom: 47px;
+    color: white;
+    width: 400px;
+    position: relative;
+    font-size: 14pt;
+    border-radius: 7px;
+    text-transform: uppercase;
+}
+
+
+.page-node-type-mi-cuenta .page-header{
+    display: none;
+}
+
+.page-node-type-equipo-de-trabajo .page-header{
+    display: none;
+}
+
+.page-node-type-medicos-adscritos .page-header{
+    display: none;
+}
+
+.page-node-type-electronica .page-header{
+    display: none;
+}
+
+.page-node-type-electronica .main-container{
+    padding: 0 !important;
+}
+
+
+
+
+@media(min-width:500px){
+                .page-node-type-electronica .main-container .field--name-body{
+
+                padding: 30px 250px !important; 
+                }
+}
+
+.page-node-type-detalle-especialista .page-header{
+
+    display: none;
+    
+}
+
+.path-webform .page-header{
+
+    display: none;
+    
+}
+
+.page-node-type-plantilla-imagen-texto .page-header{
+  display: none;
+}
+
+.page-citas .page-header{
+  display: block;
+}
+
+.como-pagar  .page-header{
+  display: block;
+}
+
+@media(min-width:900px) and (max-width:1300px){
+
+  .page-node-type-equipo-de-trabajo .field--name-body{
+      width: 100%;
+      float:left;
+    }
+
+
+    .page-node-type-equipo-de-trabajo .field--name-field-image{
+      width: 51%;
+      float:left;
+      height: 870px;
+    }
+
+    .page-node-type-electronica .main-container img{
+      padding: 14px;
+      width: 401px;
+    }
+
+    .page-node-type-electronica .main-container .field--name-body{
+
+            padding: 30px 121px !important;
+            text-align: justify;
+            margin-top: 20px;
+
+    }
+
+}
+
+.view-otros-prensa- .views-row{
+    height: 470px;
+    border: 1px solid #d6d3d3;
+    margin: 5px;
+    padding: 0;
+}
+
+.view-otros-prensa- .views-row .views-field-created{
+    padding:5px;
+    font-size:13px;
+}
+
+.view-otros-prensa- .views-row .views-field-title{
+    padding:5px;
+    font-size:16px;
+    font-weight:700;
+    text-align:left;
+}
+
+.view-otros-prensa- .views-row .views-field-body{
+    padding:6px;
+    font-size:13px;
+    text-align:justify;
+}
+
+.view-otros-prensa- .views-field-view-node{
+    padding:6px;
+    font-size: 15px;
+    text-align:justify;
+    position: absolute;
+    bottom: 10px;
+    font-weight: 500;
+}
+
+.view-otros-prensa- .views-field-view-node a{
+
+    color:#941c35;
+    text-transform:uppercase;
+
+}
+
+.page-node-type-pacientes-y-familia .videoservicios form{
+
+border: 1px solid rgba(229, 229, 229, 0);
+
+width: 88%;
+
+position:relative;
+
+margin:0 auto;
+
+background: rgba(247, 247, 247, 0);
+
+padding: 30px;
+
+font-size: 13pt;
+
+height: 167px;
+
+margin-bottom: 101px;
+
+top: 90px;
+
+text-transform: uppercase;
+}
+
+
+.page-node-type-pacientes-y-familia .videoservicios form input[type="text"]{
+
+width: 77%;
+
+padding: 30px;
+}
+
+
+.page-node-type-pacientes-y-familia .videoservicios form select{
+
+width: 73% !important;
+
+padding: 7px;
+
+position: relative;
+
+font-size: 19pt;
+
+font-style: normal;
+
+height: 65px;
+
+border: 0px solid white;
+
+box-shadow: none;
+
+top: 20px;
+}
+
+.page-node-type-pacientes-y-familia .videoservicios form select:after{content:none;}
+
+.page-node-type-pacientes-y-familia .videoservicios form .form-type-select{
+  
+width: 100% !important;
+  
+position: absolute;
+  
+float: right;
+  
+color: #555;
+  
+background: none;
+}
+
+
+.page-node-type-pacientes-y-familia .videoservicios form .form-type-select .select-wrapper{
+  display: none;
+}
+
+.page-node-type-pacientes-y-familia .videoservicios form input[type="text"]{
+  top: 3px;
+  position: relative;
+  font-size: 25pt;
+  border: none;
+  box-shadow: none;
+  text-align: center;
+}
+
+.page-node-type-pacientes-y-familia .videoservicios form input[type="text"]::placeholder{
+    font-size:24px;
+    color:grey !important;
+}
+
+
+.page-node-type-pacientes-y-familia .videoservicios form input[type="text"]:focus{
+  top: 3px;
+  position: relative;
+  border-color: #ce2a2973;
+  font-size: 13pt;
+  box-shadow: initial;
+}
+
+.page-node-type-pacientes-y-familia .videoservicios form .form-type-textfield{
+
+width: 100% !important;
+
+padding: 26px;
+
+position: absolute;
+
+left: 7px;
+}
+
+
+
+.page-node-type-pacientes-y-familia .videoservicios form .form-submit{
+      
+position:absolute;
+      
+bottom: 55px;
+      
+right: 30%;
+      
+background: url(/sites/default/files/icono-shaio-search-30px.png);
+      
+height: 32px;
+      
+width: 33px;
+      
+text-indent: 9999px;
+      
+border: none !important;
+      
+background-color: initial;
+      
+box-shadow: initial;
+      
+background-size: cover;
+  }
+
+
+
+.page-node-type-pacientes-y-familia .videoservicios form .title-label{
+
+top: -81px;
+
+position: absolute;
+
+left: -55px;
+
+background: #aba5a5;
+
+padding: 30px;
+
+cursor: pointer;
+
+border: 1px solid #e5e5e5;
+
+border-bottom: none;
+
+width: 36.3333%;
+
+text-align: center;
+
+color: white;
+
+font-size: 16px;
+}
+
+  .page-node-type-pacientes-y-familia .videoservicios form .form-type-textfield label{
+
+top: -111px;
+
+position: absolute;
+
+left: 28%;
+
+background: #f7f7f7;
+
+padding: 29px;
+
+cursor: pointer;
+
+border: 1px solid #e5e5e5;
+
+border-bottom: none;
+
+width: 40%;
+
+text-align: center;
+
+color: #aba5a5;
+}
+
+.page-node-type-pacientes-y-familia .videoservicios form .form-type-select label{
+
+left: 65%;
+
+top: -112px;
+
+position: absolute;
+
+background: #e5e5e5;
+
+padding: 29px;
+
+cursor: pointer;
+
+border: 1px solid #e5e5e5;
+
+border-bottom: none;
+
+width: 38%;
+
+text-align: center;
+
+color: #928e8e;
+}
+
+#block-formencuentraespecialista{
+    
+position: relative;
+    
+margin: 0 auto;
+    
+width: 100%;
+    
+float: none;
+}
+
+@media(max-width:769px){
+
+  .page-node-type-pacientes-y-familia .videoservicios{
+    width: 100%;
+    position:relative;
+    margin:0 auto;
+    padding: 36px 20px;
+    height: auto;
+    background:white;
+  }
+
+  .eps-pacientes-familias .field--name-body {
+      width: 100%;
+      float: left;
+      background: #ff8f9e;
+      height: 350px;
+      padding: 15px;
+      color: white;
+  }
+
+  .eps-pacientes-familias  .field--name-field-imagen-intro{
+      width:100%;
+      float:left;
+      height: 191px;
+    }
+
+    .eps-pacientes-familias .field--name-field-imagen-intro img {
+        height: auto;
+    }
+
+    
+    .page-node-type-pacientes-y-familia .videoservicios form{
+
+border: 1px solid rgba(229, 229, 229, 0);
+
+width: 88%;
+
+position:relative;
+
+margin:0 auto;
+
+background: rgba(247, 247, 247, 0);
+
+padding: 0px 30px;
+
+font-size: 13pt;
+
+height: 140px;
+
+margin-bottom: 0px;
+
+top: 83px;
+
+text-transform: uppercase;
+
+}
+
+
+    .page-node-type-pacientes-y-familia .videoservicios form input[type="text"]{
+
+width: 100%;
+
+padding: 30px 0px;
+
+left: -30px;
+}
+
+
+    .page-node-type-pacientes-y-familia .videoservicios form select{
+
+width: 64% !important;
+
+padding: 7px;
+
+position: relative;
+
+font-size: 13pt;
+
+font-style: normal;
+
+height: 65px;
+
+border: 0px solid white;
+
+box-shadow: none;
+
+top: 20px;
+
+}
+
+    .page-node-type-pacientes-y-familia .videoservicios form select:after{content:none;}
+
+    .page-node-type-pacientes-y-familia .videoservicios form .form-type-select{
+
+width: 99% !important;
+
+position: absolute;
+
+float: right;
+
+color: #555;
+
+background: none;
+
+}
+
+
+    .page-node-type-pacientes-y-familia .videoservicios form .form-type-select .select-wrapper{
+      display: none;
+    }
+
+    .page-node-type-pacientes-y-familia .videoservicios form input[type="text"]{
+      top: -22px;
+      position: relative;
+      font-size: 21pt;
+      border: none;
+      box-shadow: none;
+      text-align: center;
+    }
+
+    .page-node-type-pacientes-y-familia .videoservicios form input[type="text"]::placeholder{
+        font-size:24px;
+        color:grey !important;
+    }
+
+
+    .page-node-type-pacientes-y-familia .videoservicios form input[type="text"]:focus{
+      top: -22px;
+      position: relative;
+      border-color: #ce2a2973;
+      font-size: 13pt;
+      box-shadow: initial;
+    }
+
+    .page-node-type-pacientes-y-familia .videoservicios form .form-type-textfield{
+
+width: 100% !important;
+
+padding: 0px;
+
+position: absolute;
+
+/* left: 7px; */
+}
+
+
+
+    .page-node-type-pacientes-y-familia .videoservicios form .form-submit{
+
+position:absolute;
+
+bottom: 114px;
+
+right: 0%;
+
+background: url(/sites/default/files/icono-shaio-search-30px.png);
+
+height: 32px;
+
+width: 33px;
+
+text-indent: -9999px;
+
+border: none !important;
+
+background-color: initial;
+
+box-shadow: initial;
+
+background-size: cover;
+}
+
+
+
+    .page-node-type-pacientes-y-familia .videoservicios form .title-label{
+
+top: -122px;
+
+position: absolute;
+
+left: -42px;
+
+background: #aba5a5;
+
+padding: 21px;
+
+cursor: pointer;
+
+border: 1px solid #e5e5e5;
+
+border-bottom: none;
+
+width: 49.3333%;
+
+text-align: center;
+
+color: white;
+
+font-size: 11px;
+
+height: 67px;
+}
+
+      .page-node-type-pacientes-y-familia .videoservicios form .form-type-textfield label{
+
+top: -122px;
+
+position: absolute;
+
+left: 30%;
+
+background: #f7f7f7;
+
+padding: 26px;
+
+cursor: pointer;
+
+border: 1px solid #e5e5e5;
+
+border-bottom: none;
+
+width: 34%;
+
+text-align: center;
+
+font-size: 11px;
+}
+
+    .page-node-type-pacientes-y-familia .videoservicios form .form-type-select label{
+
+left: 56%;
+
+top: -122px;
+
+position: absolute;
+
+background: #e5e5e5;
+
+padding: 26px;
+
+cursor: pointer;
+
+border: 1px solid #e5e5e5;
+
+border-bottom: none;
+
+width: 49%;
+
+text-align: center;
+
+font-size: 11px;
+}
+
+    #block-formencuentraespecialista{
+
+    position: relative;
+
+    margin: 0 auto;
+
+    width: 100%;
+
+    float: none;
+    }
+
+
+
+
+}
+
+
+            .select-wrapper:after {
+                color: rgba(51, 122, 183, 0);
+                content: ' ';
+                font-style: normal;
+                font-weight: 400;
+                line-height: 1;
+                margin-top: 0.5em;
+                padding-right: .5em;
+                pointer-events: none;
+                position: absolute;
+                right: 2%;
+                top: 12%;
+                z-index: 10;
+                display: none;
+            }
+
+
+            #block-antesdetucitaoprocedimiento {
+                background: #c3c3c3;
+                padding: 37px 80px 34px 45px;
+                color: white;
+                height: 370px;
+            }
+
+            #block-duranteydespues {
+                background: #ffffff;
+                padding: 34px;
+                padding: 37px 180px 34px 45px;
+                color: white;
+                height: 370px;
+            }
+
+@media(max-width:700px){
+
+     #block-duranteydespues {
+                background: #ffffff;
+                padding: 37px 68px 34px 45px;
+                color: white;
+                height: 370px;
+            }
+
+}
+
+             #block-pacienteinternacional{
+        
+                padding: 50px;
+
+                color: #ffffff;
+
+                height:370px;
+
+                background: #ce2a29;
+
+                margin-top: 50px;
+
+                margin-bottom: 50px;
+        
+            }
+
+              #block-mecuidoparacuidarte {
+                background: #c3c3c3;
+                padding: 34px;
+                color: white;
+                height: 370px;
+            }
+
+            #block-recomendacionesdeconservacionytransportedelechematerna {
+                background: #ffffff;
+                padding: 34px;
+                color: white;
+                height: 370px;
+            }
+
+}
+
+
+
+          
+.feed-link img{
+
+  width: 50px !important;
+}

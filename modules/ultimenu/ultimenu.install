@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * @file
+ * Install, update and uninstall functions for the ultimenu module.
+ */
+
+/**
+ * Implements hook_install().
+ */
+function ultimenu_install() {
+  module_set_weight('ultimenu', 10);
+}

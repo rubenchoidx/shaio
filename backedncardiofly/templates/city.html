@@ -1,0 +1,17 @@
+<ion-view view-title="City">
+  <ion-content>
+    <h1 ng-if="!data._id">Nueva ciudad</h1>
+    <h1 ng-if="data._id">Editar ciudad</h1>
+    <form novalidate name="newcity" ng-submit="submit(newcity)">
+        <div class="list">
+            <label class="item item-input">
+                <span class="input-label">Landing</span>
+                <input type="text" ng-model="data.land" required>
+            </label>
+        </div>
+        <div class="padding">
+            <button class="button button-block button-positive">Guardar</button>
+        </div>
+    </form>
+  </ion-content>
+</ion-view>

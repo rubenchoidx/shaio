@@ -1,0 +1,26 @@
+<ion-view view-title="Cities">
+  <ion-content>
+    <ion-list>
+        <div class="item item-divider">
+            <button class="button icon-left ion-plus button-balanced" ng-click="add()">Agregar ciudad</button>
+        </div>
+        
+        <div class="item item-divider">
+      <input type="search"
+        placeholder="Filtrar ciudades..."
+        ng-model="search">
+        </div>
+      <ion-item ng-repeat="city in cities | filter:search" class="item-button-right">
+        <h2>{{city.doc.land}}</h2>
+        <div class="buttons">
+            <button class="button button-positive" ng-click="edit(city)">
+                <i class="icon ion-edit"></i>
+            </button>
+            <button class="button button-assertive" ng-click="delete(city)">
+                <i class="icon ion-trash-a"></i>
+            </button>
+        </div>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

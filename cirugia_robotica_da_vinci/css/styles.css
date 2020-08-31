@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family: '../fonts/latolight';
+    src: url('../fonts/lato-lig-webfont-webfont.woff2') format('woff2'),
+         url('../fonts/lato-lig-webfont-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+        font-family: 'latobold';
+    src: url('../fonts/lato-bol-webfont-webfont.woff2') format('woff2'),
+         url('../fonts/lato-bol-webfont-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: '../fonts/latolight';
+    color: #888888;
+}
+.mod1 {
+	padding: 100px 100px 0px 100px;
+}
+.mod1 h1 {
+	font-family: 'latobold';
+	color: #f48594;
+	margin-bottom: 50px;
+}
+.mod1 input {
+    border: none;
+    border-bottom: 1px solid #f48594;
+    border-radius: 0;
+    margin-bottom: 20px;
+}
+.mod1 textarea {
+    border: none;
+    border-bottom: 1px solid #f48594;
+    border-radius: 0;
+}
+.cita {
+	font-family: 'latobold';
+	color: #f48594;
+}
+.btn-val{
+	font-family: 'latobold';
+	color: #fff;
+	background: #f48594;
+	border-radius: 0;	
+}
+.btn-val:hover {
+	background: #d57582;	
+}
+.copyright{
+    font-size: 0.76rem;
+}
+.copyright a {
+	color: #888888;
+}
+.padding-cero { padding: 0px; }
+
+.mod2 {
+	background: #f48594;
+	color: #fff;
+}
+.mod2-content {
+    margin-left: 4rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.mod2-content h2 {
+	font-size: 3.1rem;
+}
+
+.mod2-content ul {
+	padding: 1px;
+}
+.mod2-content ul li{
+	/*list-style: none;*/
+}
+.carousel-control-prev, .carousel-control-next {
+    width: 4%;
+}
+@media (max-width: 768px) {
+	.mod1 {
+	padding: 0px;
+	}
+	.mod1 h1 {
+    font-size: 1.9rem;
+    margin-bottom: 0.5rem;
+	}
+	.btn-val {
+		width: 100%;
+	}
+	.mod2-content {
+    margin-left: 1rem;
+    padding-top: 2rem;
+    }
+    .mod2-content h2 {
+    font-size: 2.1rem;
+	}
+}

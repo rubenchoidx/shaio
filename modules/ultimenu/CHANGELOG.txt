@@ -1,0 +1,135 @@
+
+Ultimenu 8.x-1.0-dev, 2016-11-18
+--------------------------------
+- Refined USAGE descriptions.
+- Updated .info file.
+
+Ultimenu 8.x-1.0-dev, 2016-11-18
+--------------------------------
+- Fixed for button visibility being overriden by core bartik.
+- Removed deprecated SafeMarkup which broke menu item description.
+- #2767859 by gausarts, frozen10, SandraL: Skins not being added.
+
+Ultimenu 8.x-1.0-dev, 2016-09-20
+--------------------------------
+- #2801355 by erjuni: Links are shown as '\''Inaccessible'\'' for users without
+  permission'.
+
+Ultimenu 8.x-1.0-dev, 2016-08-03
+--------------------------------
+- #2777755 by sndo, denisha.kalariya: Vertical menu items being displayed inline.
+
+Ultimenu 8.x-1.0-dev, 2016-07-18
+--------------------------------
+- Added sample skin horizontal-to-bottom sliding.
+- #2767859 by frozen10: Hover problem.
+
+Ultimenu 8.x-1.0-dev, 2016-07-15
+--------------------------------
+- Added spaceless to template file.
+
+Ultimenu 8.x-1.0-dev, 2016-07-14
+--------------------------------
+- Removed deprecated @file docblock as per [#2665992], [#2304909].
+
+Ultimenu 8.x-1.0-dev, 2016-04-03
+--------------------------------
+- Added Render submenu option to force rendering submenus within the Ultimenu
+  region to temporarily cope with [#2631468].
+- #2634336 by xitami: Corresponding Submenu.
+- A few little cleanups.
+
+Ultimenu 8.x-1.0-dev, 2016-03-31
+--------------------------------
+- #2697211 by fortis: Secure-http restriction.
+- A couple more cleanups.
+
+Ultimenu 8.x-1.0-dev, 2016-03-30
+--------------------------------
+- #2696651: Selecting multiple menu blocks do not create multiple regions per
+  block.
+
+Ultimenu 8.x-1.0-dev, 2016-03-29
+--------------------------------
+- #2654082 by heykarthikwithu: Remove the unused imports in the code base.
+- Satisfied ESLint, and few cleanups.
+
+Ultimenu 8.x-1.0-dev, 2016-01-20
+--------------------------------
+- Updated deprecated \Drupal::url as per [#2605546]
+
+Ultimenu 8.x-1.0-dev, 2015-12-09
+--------------------------------
+- #2631184 by Chi: Add special CSS class to expanded menu item.
+- Removed useless SafeMarkup class from old approach.
+- Escaped menu label.
+
+Ultimenu 8.x-1.0-dev, 2015-11-26
+--------------------------------
+- #2623140 by Chi: hover class is missing
+  Removed the debris of D7 with .hover class from README and CSS.
+
+Ultimenu 8.x-1.0-dev, 2015-09-22
+--------------------------------
+- Updated ultimenu.settings type from mapping to config_object.
+- #2569685 by cgatlin: Requesting module to be added to composer.
+
+Ultimenu 8.x-1.0-dev, 2015-09-17
+--------------------------------
+- Fixed for eslint.
+
+Ultimenu 8.x-1.0-dev, 2015-09-11
+--------------------------------
+- #2566559 by cgatlin: Hamburger Icon not being shown on a mobile view
+
+Ultimenu 8.x-1.0-dev, 2015-09-06
+--------------------------------
+- Updated for SafeMarkup::set() removal since Drupal 8.0.0-beta15, see 2549395.
+
+Ultimenu 8.x-1.0-dev, 2015-09-05
+--------------------------------
+- #2562829 by jclopez: JS errors due to unmet jquery.once and
+  drupalSettings dependencies.
+
+Ultimenu 8.x-1.0-dev, 2015-06-23
+--------------------------------
+- Fixed for ESLint complaints to some extent.
+- Updated ultimenu.js to use ultimenu.min.js instead.
+- Renamed 'button--navigation' class to 'button--ultimenu' to avoid namspace conflict.
+- Fixed broken 'button--ultimenu' markups with the new required SafeMarkup::set().
+- Updated .active class to .is-active based on https://www.drupal.org/node/2281785
+
+Ultimenu 8.x-1.0-dev, 2015-03-29
+--------------------------------
+- Updated Url::fromUri() to Url::fromUserInput() for the skins, see 2426181.
+- Updated Url::fromUri('base:...) to Url::fromUri('user-path:...), see 2417421
+- Updated String::decodeEntities() to Html::decodeEntities(), see 2457593.
+- Updated String::checkPlain() to SafeMarkup::checkPlain(), see 2457593.
+- Updated transliteration to reflect Drupal beta9.
+- Updated link generator as per beta9, see 2392803, dropping 'html' options.
+- Updated to drupal 8.0.0-beta9.
+
+Ultimenu 8.x-1.0-dev, 2015-02-26
+--------------------------------
+- Removed Devel kint_require() from UltimenuManager.php.
+- Updated to drupal 8.0.0-beta7.
+
+Ultimenu 8.x-1.0-dev, 2015-02-07
+--------------------------------
+- Moved template preprocess to ultimenu.theme.inc.
+- Added ultimenu.services.yml.
+- Converted most procedural to methods.
+- Removed ultimenu.utilities.inc, and moved its content to UltimenuManager.php.
+- Added Drupal\ultimenu\UltimenuManager
+- Added Drupal\ultimenu\UltimenuManagerInterface
+
+Ultimenu 8.x-1.0-dev, 2015-02-06
+--------------------------------
+- Updated for drupal 8.0.0-beta6.
+- Added ultimenu.schema.yml, ultimenu.permissions.yml.
+
+Ultimenu 8.x-1.0-dev, 2014-09-21
+--------------------------------
+- Added fixes for drupal 8.0.0-alpha15.
+- Renamed ultimenu.menu_links.yml to ultimenu.links.menu.yml
+- Added CHANGELOG.txt.

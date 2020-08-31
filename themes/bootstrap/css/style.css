@@ -1,0 +1,4619 @@
+﻿/* estilos temporales Ruben 
+.desaparecer{
+  background-color: #2e6da4;
+  display: none;
+}
+#MyDiv2{
+  width: 45%;
+  margin: 0px;
+  padding: 10px;
+  float: left;
+}
+.page-node-type-detalle-tratamiento .field--name-field-youtube-link{
+  width: 100% !important;
+  margin: 1% 0px 1% 0px !important;
+  float: left;
+  height: 500px !important;
+}
+#field--name-field-youtube-link iframe{
+  height: 500px !important;
+}
+.page-node-type-detalle-tratamiento .field--name-field-descripcion{
+  margin: 1% 0 2% 0 !important;
+}
+.page-node-type-detalle-tratamiento .field--name-field-descripcion ul {
+  list-style: none; 
+}
+.page-node-type-detalle-tratamiento .field--name-field-descripcion ul li::before {
+  content: "\2022";  
+  color: #941c35; 
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em; 
+  margin-left: -1em; 
+  font-size: x-large;
+}
+
+
+.page-node-type-detalle-tratamiento .field--name-field-descrip-tec{
+    width: 49% !important;
+    margin: 1% 0 2% 0 !important;
+    float: right !important;
+
+}
+.page-node-type-detalle-tratamiento .field--name-field-descrip-tec ul {
+  list-style: none;
+}
+.page-node-type-detalle-tratamiento .field--name-field-descrip-tec ul li::before {
+  content: "\2022";  
+  color: #941c35; 
+  font-weight: bold; 
+  display: inline-block;
+  width: 1em; 
+  margin-left: -1em; 
+  font-size: x-large;
+}
+
+
+.page-node-type-detalle-tratamiento .main-container .field--name-body ul {
+  list-style: none; 
+}
+.page-node-type-detalle-tratamiento .main-container .field--name-body ul li::before {
+  content: "\2022";  
+  color: #941c35; 
+  font-weight: bold; 
+  display: inline-block; 
+  width: 1em; 
+  margin-left: -1em; 
+  font-size: x-large;
+  
+}
+.page-node-type-detalle-tratamiento .main-container .field--name-body{
+  padding: 10px;
+}
+.page-node-type-detalle-tratamiento .field--name-field-imagen-certificaciones{
+  width: 50% !important;
+  float: right !important;
+  margin: 1% 0px 2% 0px !important;
+}
+@media (max-width: 600px) {
+  .page-node-type-detalle-tratamiento .field--name-field-imagen-certificaciones{
+    width: 100% !important;
+  }
+  .page-node-type-detalle-tratamiento .field--name-field-descrip-tec{
+    width: 100% !important;
+  }
+}
+fin estilos temporales Ruben */
+.detalle-actualidad-inves a{
+  color: red;
+}
+
+.corazon-colombia img {
+  height: auto !important;
+  width: 100% !important;
+}
+.page-node-type-corazon-colombia .field--name-field-imagen2-corazoncolombia{
+  height: auto !important;
+}
+.page-node-type-corazon-colombia .field--name-field-imagen1-corazoncolombia{
+  height: auto !important;
+}
+
+
+.path-acerca-de-nosotros .main-container .page-header{    
+  display: none;
+}
+
+.page-node-type-institucional .main-container article{
+    display:none;
+}
+
+.page-node-type-institucional .main-container .page-header{
+    display:none;
+}
+.page-node-type-institucional .main-container{
+    position: relative;
+    background: #e5e5e5;
+}
+
+.idioma-footer{
+  display: none;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .active > a {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffdbdbdb', endColorstr='#ffe2e2e2', GradientType=0);
+    background-repeat: repeat-x;
+    box-shadow: none;
+}
+.form-movil{
+  display: none;
+}
+
+.region-footer-derechos ul li{
+    list-style: none;
+}
+.view-slider-actualidad .flexslider .slides img{
+  height: 100% !important;
+}
+
+.slider_testimonio {
+        max-width : 690px;
+        margin    : 0 auto 10px;
+    }
+
+.content_empleados {
+    width      : 100%;
+}
+/* hover acordeon trabaje con nosotros */
+.ckeditor-accordion-container > dl dt > a:hover{
+  background-color: #ce2b2a !important;
+  color: #fff !important;
+}
+
+
+@media(max-width:1400px){
+  
+        .page-node-type-detalle-tratamiento .main-container{
+            padding: 55px 49px 65px 111px !important;
+            position: relative;
+        }
+
+        
+}
+
+
+.path-informes-de-gestion .main-container{
+          padding: 0px 31px !important;
+        }
+
+@media(max-width:700px){
+  
+        .page-node-type-detalle-tratamiento .main-container{
+            padding: 71px 43px 50px 34px !important;
+            position: relative;
+        }
+
+        .page-node-type-detalle-tratamiento .menusectionscontainer-home ul li a {
+              font-size: 12px;
+              text-transform: uppercase;
+              font-weight: 500;
+              color: #272424;
+          }
+
+          .page-node-type-detalle-tratamiento .field--name-field-informacion-menu-secciones{
+            padding:2px
+          }
+}
+
+.main-container{
+    padding: 74px 120px !important;
+    position: relative;
+}
+
+.path-preparacion-citas-y-procedimientos .main-container{
+    padding: 70px 53px !important;
+    position: relative;
+}
+
+
+
+
+.path-frontpage .main-container{
+    padding:0 !important;
+    margin-top: 0;
+    position: relative;
+    margin-bottom: 0;
+}
+
+.path-frontpage .page-header {
+    display: none;
+}
+
+@media(min-width:760px){
+      .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+          color: #CE2A29 !important;
+          background: none;
+          border: 0;
+      }
+
+      .navbar-default .navbar-nav > li > a {
+          color: #777;
+          text-align: left;
+      }
+}
+
+
+
+
+
+.field--name-field-banner-donaciones{
+    display: none;
+}
+
+.rtejustify{
+  text-align:justify;
+}
+
+
+.derechos-footer{
+    text-align: center;
+}
+
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+    color: #CE2A29 !important;
+    text-decoration: none;
+    border-bottom: 0;
+    background: none;
+    background-image: none !important;
+}
+
+.page-node-type-como-llegar .page-header{
+    display: none;
+}
+
+.page-servicios-adicionales .page-header{
+    display: block !important;
+}
+
+.page-consentimiento-informado .page-header{
+  display: block !important;
+}
+.form-group {
+    margin-bottom: 0;
+}
+
+.body-site{
+    margin-top: 150px;
+}
+
+@media (max-width: 1022px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+}
+
+
+@media(max-width:700px){
+
+
+  .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+
+    .page-node-type-detalle-tratamiento  .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+        margin-bottom: -40px;
+        height: 100px;
+    }
+
+
+    
+}
+
+.webform-submission-contacto-form{
+    width: 70%;
+}
+
+@media(max-width:1300px){
+
+    .webform-submission-contacto-form{
+        width: 100%;
+    }
+    
+}
+
+.webform-submission-contacto-form input{
+    padding: 19px;
+    margin: 0px 0px !important;
+    width: 100% !important;
+    border-radius:  0;
+    border: 1px solid #d2c9c9;
+}
+
+.has-error .form-control {
+     border-color: #d4c8c8;
+     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+}
+
+.webform-submission-contacto-form button{
+    padding: 16px;
+    margin: 20px 0px !important;
+    width: 100% !important;
+    background:#971c35;
+    border:none;
+    font-size: 14pt;
+}
+
+.webform-submission-contacto-form button:hover{
+    padding:13px;
+    margin: 20px 0px !important;
+    width: 100% !important;
+    background:#fdfbfb;
+    border:1px solid #971c35;
+    color:#941c35;
+}
+
+.view-id-blog_vital .views-row{
+    background: #e5e5e5;
+    height: 500px;
+    margin: 9px;
+    padding: 0;
+}
+.view-id-blog_vital .views-row img{
+   width: 100%;
+
+}
+.views-field-field-fotografia img{
+	width:100%;
+}
+@media (min-width: 881px) and (max-width: 1330px){
+        .col-md-3 {
+            width: 23%;
+        }
+
+        .view-blog-vital .col-md-3 {
+            width: 23%;
+        }
+
+        .view-servicios .views-field-field-imagen-galeria img{
+
+            width: 260px;
+
+            height: auto;
+
+        }
+
+        .view-servicios .col-md-3 {
+            height: 337px !important;
+        }
+
+}
+
+@media (min-width: 881px) {
+        .col-md-3 {
+        width: 23%;
+        }
+        .path-directorio-medico .dialog-off-canvas-main-canvas .col-md-3 img{
+        min-width: 100px;
+        height: auto;
+        }
+        .path-directorio-medico .dialog-off-canvas-main-canvas .col-md-3{
+        float:left;
+        }
+
+        .view-certificaciones .col-md-3{
+          width: 31%;
+          height: 180px;
+        }
+
+}
+
+@media (min-width: 1292px) {
+        .col-md-3 {
+            width: 23%;
+        }
+
+        .view-certificaciones .col-md-3{
+          width: 27%;
+          height: auto;
+        }
+
+}
+
+.view-servicios .views-row{    
+    height: 410px;
+    float:left !important;
+}
+
+
+
+@media (max-width: 1392px) {
+  
+    .navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+        height: auto;
+    }
+
+    .path-blog-vital  .view-blog-vital .views-field-title{
+
+        padding: 0 10px;
+        height: 83px;
+
+    }
+}
+#views-exposed-form-blog-vital-page-1 .form-submit{
+    display: none;
+}
+
+form .radio input[type="radio"]{
+    display: none;
+}
+
+.fieldset-wrapper{
+    text-align:center;
+    color: #941c35;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.path-blog-vital .view-blog-vital .views-field-field-fecha{
+
+    padding: 10px;
+}
+
+
+.path-blog-vital .view-blog-vital .views-field-field-fecha time{
+
+    font-weight:100;
+}
+
+.path-blog-vital .main-container {
+    padding: 65px 230px !important;
+    position: relative;
+}
+
+
+@media (max-width:1400px){
+  .path-blog-vital .main-container {
+    padding: 65px 55px !important;
+    position: relative;
+  }
+}
+
+
+.path-blog-vital  .view-blog-vital .views-field-title{
+    font-weight: 800;
+    padding: 10px;
+}
+
+
+.path-blog-vital  .view-blog-vital .views-field-title a{
+    font-weight: 800;
+}
+
+.path-blog-vital  .view-blog-vital .views-field-body{
+    padding: 0 10px;
+    text-align:  justify;
+    font-weight: 100;
+    font-size: 13px;
+}
+
+.path-blog-vital  .view-blog-vital .views-field-body strong{
+    font-weight: 100;
+}
+
+
+.view-acerca-de-nosotros .views-field-field-img-linetime img{
+            width: 100%;
+            height: 110vh;
+            margin: 0px;
+            padding: 0px;
+            background-size: cover;
+
+
+}
+.path-acerca-de-nosotros .main-container{
+    padding: 0 !important;
+    position: relative;
+}
+
+
+.path-acerca-de-nosotros .views-field-title {
+    max-width: 900px;
+    background: rgba(255, 255, 255, 0.8);
+    margin: 0 auto;
+    padding: 40px;
+    text-align: left;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 28%;
+    display: none;
+}
+
+.path-acerca-de-nosotros .views-field-body {
+    max-width: 900px;
+    background: rgba(255, 255, 255, 0.8);
+    margin: 0 auto;
+    padding: 40px;
+    text-align: left;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 35%;
+}
+
+
+.path-acerca-de-nosotros .flex-direction-nav a {
+  text-decoration: none;
+  display: block;
+  width: 52px;
+  height: 53px;
+  margin: -20px 0 0;
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  overflow: hidden;
+  opacity: 0;
+  cursor: pointer;
+  color: rgb(218, 44, 42);
+  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+
+.path-acerca-de-nosotros .flex-direction-nav a:before {
+  font-family: "flexslider-icon";
+  font-size: 40px;
+  display: inline-block;
+  
+  color: white;
+  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+
+.path-acerca-de-nosotros .flex-direction-nav a.flex-next:before {
+  /*content: '\f002';*/
+
+}
+
+.path-acerca-de-nosotros .flex-direction-nav .flex-prev {
+  margin-left: 20px;
+  background: url(/themes/bootstrap/images/arrows.png) no-repeat left;
+  text-indent: 99999px;
+  width: 20px;
+}
+
+.path-acerca-de-nosotros .flex-direction-nav .flex-next {
+  margin-right: 20px;
+  background: url(/themes/bootstrap/images/arrows.png) no-repeat right;
+  text-indent: 99999px;
+  width: 20px;
+  position: absolute;
+}
+
+.path-acerca-de-nosotros .flexslider:hover .flex-direction-nav .flex-prev {
+  opacity: 0.7;
+  left: 10px;
+}
+
+.path-acerca-de-nosotros .flexslider:hover .flex-direction-nav .flex-prev:hover {
+  opacity: 1;
+}
+
+.path-acerca-de-nosotros .flexslider:hover .flex-direction-nav .flex-next {
+  opacity: 0.7;
+  right: 10px;
+}
+.path-acerca-de-nosotros .flexslider:hover .flex-direction-nav .flex-next:hover {
+  opacity: 1;
+}
+.path-acerca-de-nosotros .flex-direction-nav .flex-disabled {
+  opacity: 0!important;
+  filter: alpha(opacity=0);
+  cursor: default;
+  z-index: -1;
+}
+.path-acerca-de-nosotros .flex-pauseplay a {
+  display: block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+  opacity: 0.8;
+  z-index: 10;
+  overflow: hidden;
+  cursor: pointer;
+  color: #000;
+}
+.path-acerca-de-nosotros .flex-pauseplay a:before {
+  font-family: "flexslider-icon";
+  font-size: 20px;
+  display: inline-block;
+  content: '\f004';
+}
+
+
+.path-acerca-de-nosotros .flex-control-nav {
+  width: 59px;
+  position: absolute;
+  margin-bottom: 190px;
+  text-align: center;
+  z-index: 999;
+  right: 4%;
+  padding: 12px;
+  background: #dea9b2;
+  border-radius: 16px;
+}
+
+.path-acerca-de-nosotros .flex-nav-prev{
+  width: 27px;
+  float:  right;
+  position:  absolute;
+  right: 8.3%;
+  bottom: 150px;
+}
+
+.path-acerca-de-nosotros .flex-direction-nav {background: pink;}
+
+
+.path-acerca-de-nosotros .flex-nav-next{
+  width: 30px;
+  float:  right;
+  position:  absolute;
+  right: 1%;
+  bottom: 150px;
+}
+
+.path-acerca-de-nosotros .flex-control-nav li {
+  margin: 11px 6px;
+  display: inline-block;
+  zoom: 1;
+  *
+  display: inline;
+  width: 100%;
+  float: left;
+  position: relative;
+}
+.path-acerca-de-nosotros .flex-control-paging li a {
+  width: 21px;
+  height: 21px;
+  display: block;
+  background: rgb(247, 246, 246);
+  cursor: pointer;
+  text-indent: -9999px;
+  -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+  -o-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border: none;
+  border-radius: 20px;
+}
+.path-acerca-de-nosotros .flex-control-paging li a:hover {
+  background: #333;
+  background: rgb(249, 247, 247);
+}
+.path-acerca-de-nosotros .flex-control-paging li a.flex-active {
+  background: rgb(206, 42, 41);
+  cursor: default;
+}
+
+
+@media screen and (max-width:700px){
+    .view-acerca-de-nosotros .views-field-field-img-linetime img {
+        width: 100%;
+        height: auto;
+        margin: 0px;
+        padding: 0px;
+        background-size: cover;
+    }
+
+    .path-acerca-de-nosotros .main-container .views-field-body {
+        max-width: 900px;
+        background: rgba(255, 255, 255, 0.8);
+        margin: 0 auto;
+        padding: 40px;
+        text-align: left;
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 35%;
+    }
+
+    .path-acerca-de-nosotros .flex-control-nav {
+        display:none;
+    }
+
+    .path-acerca-de-nosotros .main-container{
+        padding: 0 !important;
+        position: relative;
+        margin-bottom: 130px;
+    }
+
+
+}    
+
+.page-node-type-corazon-colombia .main-container{
+  
+    padding: 0 !important;
+}
+
+.page-node-type-corazon-colombia .region-header{
+    padding: 44px 144px !important;
+}
+
+.page-node-type-corazon-colombia .field--name-field-resumen{
+    padding: 21px 60px !important;
+    background:#e5e5e5;
+}
+
+.page-node-type-corazon-colombia .field--name-field-resumen a{
+
+background:#941c35;
+
+color: white !important;
+
+padding:5px;
+
+float: right;
+
+position:relative;
+
+top: -22px;
+}
+
+.page-node-type-corazon-colombia .region-content .field--name-body{
+    padding: 21px 60px !important;
+    display: none;
+    background: #e5e5e5;
+    top: -20px;
+    width: 100%;
+    overflow: hidden !important;
+    position:  relative;
+}
+
+.region-content .field--name-field-parrafo1-corazoncolombia{
+  width: 50%;
+  float:left;
+}
+
+.region-content .field--name-field-imagen1-corazoncolombia{
+  width: 50%;
+  float:left;
+}
+
+.region-content .field--name-field-parrafo2-corazoncolombia{
+  width: 50%;
+  float:left;
+}
+
+.region-content .field--name-field-imagen2-corazoncolombia{
+  width: 50%;
+  float:left;
+}
+
+@media(max-width:1000px){
+
+  .page-node-type-corazon-colombia .region-content .field--name-field-parrafo1-corazoncolombia{
+        padding:10px !important;
+        text-align:  justify;
+        height: auto;
+        width:100%
+    }
+
+    .page-header {
+      padding: 2px !important;
+      margin: 0 0px;
+      border-bottom: 0px solid #eee;
+      width: 100% !important;
+      font-size: 1.6em;
+      margin-top: 19px;
+    }
+
+    .page-node-type-corazon-colombia .region-header {
+        padding: 20px  !important;
+        margin-bottom: 16px;
+        width: 90%;
+      }
+
+    .page-header h1{
+      padding: 0 !important;
+      margin: 40px 0 20px;
+      border-bottom: 1px solid #eee;
+    }
+
+    .page-node-type-corazon-colombia .field--name-field-imagen1-corazoncolombia{
+        padding: 10px !important;
+        text-align:  justify;
+        position: relative;
+        height: auto !important;
+        width:100%
+    }
+
+    .page-node-type-corazon-colombia .field--name-field-imagen1-corazoncolombia img{
+        width:100%;
+        height:100%
+    }
+
+    .page-node-type-corazon-colombia .field--name-field-parrafo2-corazoncolombia{
+        padding: 10px !important;
+        text-align:  justify;
+        height: auto !important;
+            width:100%
+    }
+
+    .page-node-type-corazon-colombia .field--name-field-imagen2-corazoncolombia{
+        padding: 10px !important;
+        text-align:  justify;
+        position: relative;
+        height: auto !important;
+        width: 100% !important;
+    }
+
+    .page-node-type-corazon-colombia .field--name-field-imagen2-corazoncolombia img{
+        width:100%;
+        height:100%
+    }
+
+
+}
+
+.page-node-type-corazon-colombia .region-content .field--name-field-parrafo1-corazoncolombia{
+        padding: 64px 52px 18px 269px;
+        text-align:  justify;
+        height: auto;
+}
+
+.page-node-type-corazon-colombia .field--name-field-imagen1-corazoncolombia{
+        padding: 45px 247px 0px 0px;
+        text-align:  justify;
+        position: relative;
+        height: 714px;
+}
+
+.page-node-type-corazon-colombia .field--name-field-imagen1-corazoncolombia img{
+        width:100%;
+        height:100%
+}
+
+.page-node-type-corazon-colombia .field--name-field-parrafo2-corazoncolombia{
+        padding: 40px 247px 100px 45px;
+        text-align:  justify;
+}
+
+.page-node-type-corazon-colombia .field--name-field-imagen2-corazoncolombia{
+        padding: 0px 0px 100px 247px;
+        text-align:  justify;
+        position: relative;
+        height: 720px;
+        width: 50%;
+}
+
+.page-node-type-corazon-colombia .field--name-field-imagen2-corazoncolombia img{
+        width:100%;
+        height:100%
+}
+
+
+
+.view-prensa ul .col-md-2{
+        height: 560px;
+        border: 1px solid #dad3d3;
+        margin: 10px;
+        padding: 0;
+        list-style: none;
+      }
+
+@media(min-width:1400px){
+  
+      .view-prensa ul .col-md-2{
+        height: 410px;
+        border: 1px solid #dad3d3;
+        margin: 10px;
+        padding: 0;
+        list-style: none;
+        width: 17.666667% !important;
+      }
+}
+      
+.view-prensa .views-field-field-fecha{  
+  padding: 4px;
+  font-size: 10pt;
+}
+
+.view-prensa .views-field-title{
+    padding: 4px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+
+.view-prensa .views-field-body{
+  padding: 4px;
+  text-align: justify;
+  font-size: 14px;
+  list-style: none;
+  text-decoration: none;
+}
+
+.view-prensa .views-field-body li{
+  list-style:none;
+  text-decoration:none;
+}
+
+.view-prensa .views-field-view-node{
+  padding: 6px;
+  bottom: 10px;
+  position: absolute;
+}
+
+.view-prensa .views-field-field-imagen-detalle img{
+  width: 100%;
+}
+
+.view-prensa .views-field-view-node a{
+  font-size: 1.4rem;
+  color: rgb(148, 28, 53);
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 7px;
+  cursor: pointer;
+}
+
+
+@media(min-width:800px) and (max-width:1390px){
+
+  .view-prensa ul .col-md-2{
+    height: 410px;
+    border: 1px solid #dad3d3;
+    margin: 10px;
+    padding: 0;
+    width: 31%;
+  }
+  
+}
+
+@media(min-width:800px){
+        .page-node-type-detalle-prensa .field--name-field-imagen-detalle img{
+
+              width:320px;
+              float:left;
+              margin-right:20px;
+
+
+        }
+}
+
+.view-prensa strong{
+    font-weight: 100 !important;
+}
+
+.view-prensa em{
+    font-style: normal !important;
+}
+
+.view-prensa h1{
+    font-style: normal !important;
+    font-size: 12pt;
+}
+
+.path-directorio-medico .view-busca-tu-especialista .views-row{
+  height: 493px;
+  width: 24%;
+  margin: 0.5%;
+  background: #e5e5e5;
+  padding: 30px;
+  text-align:  center;
+}
+
+@media(min-width:1200px) and (max-width:1310px){
+ 
+
+
+    .path-directorio-medico .view-busca-tu-especialista .boton-hoja-vida a {
+        text-align: center;
+        font-size: 1.5em;
+        color: white;
+        background: #941c35;
+        position: absolute;
+        width: 246px;
+        height: 37px;
+        bottom: 10px;
+        left: 8%;
+        right: 5%;
+    }
+    
+}
+
+.path-directorio-medico .view-busca-tu-especialista .views-row img{
+  
+    height: auto;
+    width: 75%;
+}
+
+
+.path-directorio-medico .view-busca-tu-especialista .views-field-title{
+  text-align:center;
+  font-size:1.4em;
+  font-weight: 600;
+  padding: 10px 0px;
+}
+
+
+.path-directorio-medico .view-busca-tu-especialista .boton-hoja-vida{
+  text-align:center;
+  font-weight: 500;
+  width: 100%;
+}
+
+.path-directorio-medico .view-busca-tu-especialista .boton-hoja-vida a{
+  text-align:center;
+  font-size:1.5em;
+  color:white;
+  background:#941c35;
+  width: 80%;
+  height: 38px;
+  bottom: 10px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+
+
+.path-directorio-medico .view-busca-tu-especialista .boton-hoja-vida a:hover{
+  color:white !important;
+  background:#5d1121;
+}
+
+
+
+.path-directorio-medico .view-busca-tu-especialista .views-field-field-especialista{
+  text-align:center;
+  font-size:1em;
+  position: relative;
+  padding:  20px;
+  font-weight: 600;
+}
+
+.view-id-servicios button{
+  display:none;
+}
+
+.view-id-convenios_bloque button{
+  display:none;
+}
+
+
+.view-id-convenios_bloque .item-convenios{
+  padding: 30px 90px;
+  text-align: center;
+  font-size: 13pt;
+  height: 95px;
+}
+
+
+
+.view-id-convenios_bloque .item-convenios:hover{
+  background: #e5e5e5;
+}
+
+.view-id-convenios_bloque .item-convenios a{
+  text-decoration:none;
+  font-size: 15px;
+}
+
+
+
+
+.view-filters .form-item .control-label:before{
+    content:"";
+    width: 2px;
+    height: 12px;
+    background-color: #524e4e;
+    display:block;
+    position:absolute;
+    left:-5px;
+    top:16px;
+}
+
+.view-filters .form-item .control-label[for$="value-1"]:before{
+  
+    display:none;
+    
+}
+
+
+
+.path-directorio-medico .form-item .control-label:before{
+    display: none;
+}
+
+
+.view-id-convenios_bloque .view-filters .control-label{
+  font-size:11pt;
+}
+
+@media (max-width:1590px){
+
+  .view-id-convenios_bloque .item-convenios{
+    padding: 30px 10px;
+    text-align: center;
+    font-size: 13pt;
+    height: 95px;
+  }
+
+
+
+  .view-id-convenios_bloque .item-convenios:hover{
+    background: #e5e5e5;
+  }
+
+  .view-id-convenios_bloque .item-convenios a{
+    text-decoration:none;
+  }
+}
+
+
+.page-node-type-detalle-tramite table{
+  border: 1px solid #871111;
+  width: 100%;
+}
+
+.page-node-type-detalle-tramite table td{
+  padding: 15px;
+}
+
+.page-node-type-pacientes-y-familia .page-header{
+  display: none;
+}
+
+@media(min-width:1000px) and (max-width:1300px){
+
+  .field--name-field-html{    
+    width: 50%;
+    float: left;
+  }
+  .page-node-type-como-llegar .region-content .field--name-body{
+    width: 50%;
+    float: left;
+    padding:30px;
+  }
+}
+
+.page-node-type-plantilla-imagen-texto .page-header{
+  /* display: none; */
+}
+
+.page-node-type-entrada-blog #field--name-field-link-video-youtube{
+  padding:20px
+}
+
+.page-node-type-entrada-blog .main-container .field--name-imagen-contenido img{
+  width: 337px;
+  float:left;
+  margin: 0px 15px 15px 0px;
+}
+
+.page-node-type-entrada-blog .main-container .field--type-datetime{
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.path-informes-de-gestion .view-informes-de-gestion{
+
+}
+
+.path-informes-de-gestion .page-header{
+  display: none;
+}
+
+.path-informes-de-gestion .view-informes-de-gestion .views-row{
+  padding: 134px 5px;
+  border-top: 1px solid #d8d8d8;
+  margin-bottom: 86px;
+}
+
+
+.path-informes-de-gestion .view-informes-de-gestion .views-row .views-field-body{
+  left:80px;
+  position:relative;
+}
+
+
+@media(max-width:700px){
+
+  .path-informes-de-gestion .view-informes-de-gestion .views-row{
+      padding: 34px 5px;
+      border-top: 1px solid #d8d8d8;
+      margin-bottom: 162px;
+    }
+
+
+    .path-informes-de-gestion .view-informes-de-gestion .views-row .views-field-body{
+      left:0px;
+      position:relative;
+      top: 10px;
+    }
+  
+}
+
+.path-informes-de-gestion .view-informes-de-gestion .views-row .views-field-title h1:before {
+    content: "";
+    background: url(../images/ico_reporte.png) no-repeat;
+    width: 52px;
+    height: 34px;
+    position: relative;
+    display: inline-block;
+    margin: 0px 20px 0px 5px;
+    vertical-align: middle;
+    float: left;
+}
+
+.block-views-blockprensa-block-1{
+  padding: 0;
+  margin:0;
+  width: 100%
+}
+
+.block-views-blockprensa-block-1 .view-prensa{
+
+  padding: 0;
+
+}
+
+.block-views-blockprensa-block-1 .view-prensa ul{
+
+  padding: 0;
+
+}
+
+.page-node-type-prensa .field--name-body{
+  padding: 0px;
+}
+
+.page-node-type-como-llegar .main-container .field--name-body{
+        font-family: 'larsseit-light';
+        font-size: 20px;
+        line-height: 25px;
+        padding: 193px 30px;
+      }
+
+      a:hover, a:focus {
+          color: #403e3e !important;
+          text-decoration: underline;
+      }
+
+.path-user .user-login-form{
+    width: 320px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #941c35;
+    border-color: #2e6da4;
+}
+
+
+.btn-primary {
+    background-image: -webkit-linear-gradient(top, #941c35 0%, #941c35 100%);
+    background-image: -o-linear-gradient(top, #941c35 0%, #941c35 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#941c35), to(#941c35));
+    background-image: linear-gradient(to bottom, #941c35 0%, #a94442 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff337ab7', endColorstr='#ff265a88', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+    background-repeat: repeat-x;
+    border-color: #941c35;
+}
+
+.path-preparacion-citas-y-procedimientos .items-cita{
+        border: 1px solid #d6d5d5;
+        margin-left: 50px;
+        padding: 0;
+        margin-bottom:70px;
+}
+
+
+
+
+.path-preparacion-citas-y-procedimientos .views-field-field-imagen-tramite .col-md-6{
+  padding:0;
+}
+
+
+.path-preparacion-citas-y-procedimientos .views-field-title .field-content{
+  padding: 45px;
+  font-weight: 600;
+  font-size: 15pt;
+}
+
+
+.path-preparacion-citas-y-procedimientos .views-field-view-node .field-content{
+  padding: 30px;
+  font-weight: 500;
+  font-size: 14pt;
+}
+
+.path-preparacion-citas-y-procedimientos .views-field-view-node .field-content a{
+  color:#941c35;
+  position:absolute;
+  bottom: 58px;
+  right: 130px;
+}
+
+
+@media (min-width:1100px) and (max-width:1430px) {
+
+    .path-preparacion-citas-y-procedimientos .items-cita{
+            border: 1px solid #d6d5d5;
+            margin-left: 10px;
+            padding: 0;
+            margin-bottom:70px;
+            height: 265px;
+            width: 47%;
+    }
+    
+    .path-preparacion-citas-y-procedimientos .items-cita .views-field-title a{
+           font-size:13pt;
+    }
+    .path-preparacion-citas-y-procedimientos .views-field-view-node .field-content a {
+        color: #941c35;
+        position: absolute;
+        bottom: 54px;
+        right: 118px;
+    }
+
+}
+
+
+
+
+@media (max-width:1030px) {
+
+    .path-preparacion-citas-y-procedimientos .items-cita{
+            border: 1px solid #d6d5d5;
+            margin-left: 10px;
+            padding: 0;
+            margin-bottom:70px;
+            height: 590px;
+    }
+
+    .path-preparacion-citas-y-procedimientos .items-cita IMG{
+            margin-left: 10px;
+            width: 46%;
+            padding: 0;
+            margin-bottom: 30px;
+    }
+
+    .path-preparacion-citas-y-procedimientos .views-field-view-node .field-content a {
+        color: #941c35;
+        position: absolute;
+        bottom: 2px;
+        right: 10px;
+        width: 120px;
+    }
+
+    .path-preparacion-citas-y-procedimientos .views-field-title {
+        padding: 45px;
+        font-weight: 600;
+        font-size: 14pt;
+        text-align: center;
+    }
+
+    .path-preparacion-citas-y-procedimientos .views-field-title .field-content {
+        padding: 2px;
+    }
+
+}
+
+@media (max-width:730px) {
+
+    .path-preparacion-citas-y-procedimientos .items-cita{
+            border: 1px solid #d6d5d5;
+            margin-left: 10px;
+            padding: 0;
+            margin-bottom:70px;
+            height: 290px;
+            text-align: center;
+    }
+
+    body{
+      margin-top: 109px;
+    }
+
+    .page-node-type-institucional,.path-frontpage {
+      margin-top:10px;
+
+    }
+
+    .path-preparacion-citas-y-procedimientos .views-field-view-node .field-content a {
+        color: #941c35;
+        position: absolute;
+        bottom: 2px;
+        right: 10px;
+        width: 120px;
+    }
+
+    .path-preparacion-citas-y-procedimientos .views-field-title {
+        padding: 0px;
+        font-weight: 600;
+        font-size: 14pt;
+        text-align: center;
+    }
+
+    .path-preparacion-citas-y-procedimientos .views-field-title .field-content {
+        padding: 2px;
+    }
+
+}
+
+.view-preparacion-citas-y-procedimientos button{
+
+  display: none;
+
+}
+
+
+.view-busca-tu-especialista form{
+
+border: 1px solid #e5e5e5;
+
+width: 688px;
+
+position:relative;
+
+margin:0 auto;
+
+background: #ffffff;
+
+padding: 30px;
+
+font-size: 13pt;
+
+height: 167px;
+
+margin-bottom: 101px;
+
+top: 70px;
+}
+
+
+.view-busca-tu-especialista form input[type="text"]{
+
+width: 520px;
+
+padding: 30px;
+}
+
+
+
+
+.view-busca-tu-especialista form select{
+
+width: 183px !important;
+
+padding: 10px;
+
+position: relative;
+
+font-size: 14px;
+
+font-style: normal;
+
+height: 40px;
+}
+
+
+@media(min-width:760px){
+
+  .view-busca-tu-especialista form select{
+
+width: 484px !important;
+
+padding: 7px;
+
+position: relative;
+
+font-size: 13pt;
+
+font-style: normal;
+
+height: 65px;
+
+}
+
+
+}
+
+
+
+.view-busca-tu-especialista form .form-type-select{
+  
+width: 300px !important;
+  
+padding: 26px;
+  
+position: absolute;
+  
+float: left;
+  
+color: #555;
+}
+
+
+.view-busca-tu-especialista form .form-type-select .select-wrapper{
+  display: none;
+}
+
+.view-busca-tu-especialista form input[type="text"]{
+  top: 3px;
+  position: relative;
+  font-size: 13pt;
+}
+
+.view-busca-tu-especialista form input[type="text"]::placeholder{
+    color:grey
+}
+
+
+.view-busca-tu-especialista form input[type="text"]:focus{
+  top: 3px;
+  position: relative;
+  border-color: rgba(128, 122, 122, 0.45098039215686275);
+  font-size: 13pt;
+  box-shadow: initial;
+}
+
+.view-busca-tu-especialista form .form-type-textfield{
+
+      width: 500px !important;
+      padding: 26px;
+      position: absolute;
+      left: 7px;
+}
+
+
+
+.view-busca-tu-especialista form .form-submit{
+      
+position:absolute;
+      
+bottom: 55px;
+      
+right:20px;
+      
+background: url('/themes/bootstrap/images/search-solid.svg');
+      
+background-size: contain;
+      
+height: 38px;
+      
+width: 18px;
+      
+text-indent: -9999px;
+      
+border: none !important;
+      
+background-color: #f7f7f7 !important;
+      
+box-shadow: initial;
+  }
+
+
+  .view-busca-tu-especialista form .form-type-textfield label{
+
+top: -86px;
+
+position: absolute;
+
+left: 44%;
+
+background: #fff;
+
+padding: 20px;
+
+cursor: pointer;
+
+border: 1px solid #e5e5e5;
+
+border-bottom: none;
+
+width: 37%;
+
+color: #7d7b7b;
+
+text-align: center;
+}
+
+.view-busca-tu-especialista form .form-type-textfield:before{
+
+top: -86px;
+
+position: absolute;
+
+left: -8px;
+
+background: #adaaaa;
+
+padding: 20px;
+
+cursor: pointer;
+
+border: 1px solid #e5e5e5;
+
+border-bottom: none;
+
+width: 48%;
+
+color: white;
+
+content:"Busca tu especialista por:";
+
+font-size: 17px;
+}
+
+.view-busca-tu-especialista form .form-type-select label{
+
+left: 127%;
+
+top: -86px;
+
+position: absolute;
+
+background: #ffffff;
+
+padding: 20px;
+
+cursor: pointer;
+
+border-top: 1px solid #e5e5e5;
+
+border-right: 1px solid #e5e5e5;
+
+border-bottom: none;
+
+width: 92%;
+
+color: #7d7b7b;
+
+text-align: center;
+}
+@media(min-width:800px){
+        .navbar-default .container-fluid{
+         height: 162px;
+        }
+
+}
+
+.page-node-type-profesionales-salud{
+  background:#e5e5e5
+}
+
+.path-seguridad-del-paciente{
+   background: #e5e5e5
+}
+
+
+.path-seguridad-del-paciente .main-container {
+    padding: 30px 54px !important;
+    position: relative;
+}
+
+.path-seguridad-del-paciente .page-header{
+  display:none;
+}
+
+.path-seguridad-del-paciente .quicktabs-tabs{
+  display: block;
+  width: 26%;
+  float: left;
+  top: 15px;
+  left: -35px;
+  position: relative;
+}
+  
+.path-seguridad-del-paciente .quicktabs-main{
+  width: 74%;
+  float: left;
+  background: white;
+  padding: 100px 60px;
+}
+
+
+.path-seguridad-del-paciente .quicktabs-main{
+  font-size: 16px;
+  color: #8a8680;
+}
+
+
+
+.path-seguridad-del-paciente .quicktabs-tabs li{
+  width: 67%;
+  float: left;
+  padding: 27px;
+  background: #e5e5e5;
+  padding-bottom: 45px;
+}
+
+.quicktabs-tabs .active a{
+ color:#ce2a29 !important;
+ text-decoration: none;
+}
+
+a:hover,a:active{
+  text-decoration:none;
+}
+
+.path-seguridad-del-paciente .quicktabs-tabs li a{
+  background:none;
+  font-size: 14px;
+  color: #8a8680;
+  /* width: 200px; */
+}
+
+.page-node-type-paciente-internacional .quicktabs-tabs{
+  display: block;
+  width: 29%;
+  float: left;
+  padding: 0;
+}
+
+
+.page-node-type-paciente-internacional .quicktabs-main{
+  width: 71%;
+  float: left;
+  background: white;
+  padding: 101px;
+  font-size: 16px;
+  color: #8a8680;
+  text-align: justify;
+  padding-right: 372px;
+  height: 650px;
+  position: relative;
+  right: 0;
+}
+
+@media(max-width:780px){
+
+  .page-node-type-paciente-internacional .quicktabs-main{
+  width: 71%;
+  float: left;
+  background: white;
+  padding: 101px;
+  font-size: 16px;
+  color: #8a8680;
+  text-align: justify;
+  padding-right: 372px;
+  height: 650px;
+  position: relative;
+  right: 0;
+}
+
+}
+
+@media(max-width:1380px){
+
+  .page-node-type-paciente-internacional .quicktabs-main{
+      width: 71%;
+      float: left;
+      background: white;
+      padding: 101px;
+      font-size: 16px;
+      color: #8a8680;
+      text-align: justify;
+      padding-right: 72px;
+      height: 669px;
+      position: relative;
+      right: 0;
+      margin-top: 20px;
+    }
+  
+}
+
+@media(max-width:480px){
+
+  .page-node-type-paciente-internacional .quicktabs-main{
+      width: 71%;
+      float: left;
+      background: white;
+      padding: 101px;
+      font-size: 16px;
+      color: #8a8680;
+      text-align: justify;
+      padding-right: 72px;
+      height: auto;
+      position: relative;
+      right: 0;
+    }
+  
+}
+
+
+.page-node-type-paciente-internacional .quicktabs-main li{
+
+text-decoration: none;
+
+list-style-type: none;
+
+line-height: 30px;
+}
+
+.page-node-type-paciente-internacional .quicktabs-tabs li{
+  width:100%;
+  float: left;
+  padding: 20px 42px;
+  background: #e5e5e5;
+}
+  
+
+.page-node-type-paciente-internacional .quicktabs-tabs li a{
+  background:none;
+  font-size:13pt;
+  color: #8a8680;
+}
+
+.page-node-type-paciente-internacional .page-header{
+  display:none;
+}
+.page-node-type-paciente-internacional .main-container .field--name-body{
+
+width: 50%;
+
+float: left;
+
+padding: 79px;
+
+color: grey;
+
+background: white;
+
+height: 371px;
+}
+
+.page-node-type-paciente-internacional .main-container .field--name-body h2{
+  color: #8a8680;
+}
+
+
+.page-node-type-paciente-internacional .main-container .field--name-field-introducci-n{
+
+width: 50%;
+
+float: left;
+
+color:grey;
+
+padding: 80px;
+
+padding-left: 0;
+
+background: white;
+
+height: 371px;
+}
+.page-node-type-paciente-internacional .main-container .field--name-field-introducci-n h2{
+  color:grey;
+}
+
+.page-node-type-profesionales-salud .page-header{
+  display: none;
+}
+
+#block-contactanos-paciente-internacional{
+  padding: 21px;
+  background: #ce2a29;
+  width: 70%;
+  position: relative;
+  margin: 0 auto;
+  color: white;
+  margin-bottom: 20px;
+  margin-top: 46px;
+  height: 390px;
+}
+
+.page-node-type-paciente-internacional #block-contactanos-paciente-internacional h2{
+  color: white;
+}
+
+.page-node-type-paciente-internacional #block-contactanos-paciente-internacional a{
+  color: white;
+}
+
+
+.page-node-type-paciente-internacional #block-contactanos-paciente-internacional p{
+  color: white;
+}
+
+
+.page-node-type-home-educacion{
+  background: #e5e5e5;
+}
+
+.page-node-type-detalle-especialista div[class*="field--name-field-image"]{
+  float:left;
+  height: 235px;
+  width: 22%;
+  border: 1px solid #c8c7c7;
+  padding: 10px;
+}
+
+.page-node-type-detalle-especialista div[class*="field--name-field-title"]{
+  float:left;
+  width: 21%;
+  font-size: 1.5em;
+  color: #941c35;
+  height: 235px;
+  padding: 10px 22px;
+  border-bottom: 1px solid #c8c7c7;
+  border-top: 1px solid #c8c7c7;
+}
+
+.page-node-type-detalle-especialista div[class*="field--name-field-telefono"]{
+  font-size: 1em;
+  width: 24%;
+  height: 235px;
+  float: left;
+  position: relative;
+  border-bottom: 1px solid #c8c7c7;
+  border-top: 1px solid #c8c7c7;
+  padding: 80px;
+  display: inline-block;
+  vertical-align:middle;
+  line-height:normal;
+}
+
+.page-node-type-detalle-especialista div[class*="field--name-field-cargo"]{
+  font-size: 1em;
+  width: 27%;
+  height: 27px;
+  position: absolute;
+  left: 24%;
+  top: 163px;
+  font-weight: 600;
+}
+
+.page-node-type-detalle-especialista div[class*="field--name-field-email"]{
+  font-size: 1em;
+  width: 32%;
+  height: 235px;
+  float: left;
+  position: relative;
+  padding: 80px;
+  border-bottom: 1px solid #c8c7c7;
+  border-right: 1px solid #c8c7c7;
+  border-top: 1px solid #c8c7c7;
+  padding-left: 7px;
+}
+
+.page-node-type-detalle-especialista div[class*="field--name-field-especialista"]{
+    
+width: 100%;
+    
+position: relative;
+    
+font-size: 19pt;
+    
+color: #941c35;
+    
+border-bottom: 1px solid #cec9c9;
+    
+float: left;
+}
+
+.page-node-type-detalle-especialista div[class*="field--name-field-especialista"] .field--label
+{
+    
+margin-top: 40px;
+}
+
+.page-node-type-detalle-especialista div[class*="field--name-field-especialista"] section{
+
+margin-bottom: 14px;
+
+position: relative;
+
+margin-top: 40px;
+}
+
+
+.page-node-type-detalle-especialista div[class*="field--name-field-certificaciones-asociacion"]{
+
+margin-top:20px;
+
+float: left;
+width:100%
+}
+
+.page-node-type-detalle-especialista div[class*="field--name-field-certificaciones-asociacion"] p{
+
+font-size: 18px;
+
+color: #941c35;
+}
+
+.page-node-type-detalle-especialista div[class*="field--name-field-educacion-posgrados"]{
+
+  margin-top:20px;
+  float: left;
+
+  width:100%
+
+}
+
+.page-node-type-detalle-especialista div[class*="field--name-field-educacion-posgrados"] p{
+
+      font-size: 18px;
+
+      color: #941c35;
+}
+
+.page-node-type-detalle-especialista div[class*="field--name-field-contenido"]{
+
+  margin-top:20px;
+  float: left;
+  width:100%
+}
+
+.page-node-type-detalle-especialista div[class*="field--name-field-contenido"] p{
+
+font-size: 18px;
+
+color: #941c35;
+}
+
+
+
+.page-node-type-articulo-publicaciones .ver-publicacion{
+
+  display:none;
+}
+
+
+.page-node-type-articulo-publicaciones .view-publicaciones-y-recursos-vista2 .ver-publicacion{
+
+  display:block;
+}
+
+
+.page-node-type-articulo-publicaciones .field--name-field-image img{
+  width:400px;
+  float:left;
+}
+
+.page-node-type-articulo-publicaciones .field--name-field-pdf {
+  float:left;
+  margin:20px;
+  font-size:20pt;
+
+}
+
+.page-node-type-articulo-publicaciones .field--name-field-pdf .file-link{
+  
+border-right: 1px solid #ccc;
+  
+width: 600px;
+  
+position: relative;
+}
+
+.page-node-type-articulo-publicaciones .field--name-field-pdf .file-size{
+  
+  display:none;
+
+}
+
+.page-node-type-articulo-publicaciones .field--name-field-pdf .file-link a{
+  
+color: #ce2a29;
+  
+width: 226px;
+}
+.page-node-type-articulo-publicaciones .text-primary {
+    color: #ce2a29;
+}
+
+
+.view-id-publicaciones_y_recursos_vista2 .views-row{
+    border: 0px solid #e0dada;
+    text-align: justify;
+    height: 440px;
+    }
+
+.view-id-publicaciones_y_recursos_vista2 .views-row .ver-publicacion{
+  color: #941c35 !important;
+  position: absolute;
+  bottom: 4px;
+  padding: 7px;
+  text-transform: uppercase;
+}
+
+
+.view-video-recursos .views-row{
+  
+height: 480px;
+  
+border: 1px solid #efe8e8;
+  
+margin: 10px;
+  
+padding: 10px;
+}
+
+.view-video-recursos .views-row .views-field-view-node a{
+
+color: #941c35;
+
+position: absolute;
+
+bottom: 17px;
+
+text-transform: uppercase;
+}
+
+#block-bloquecasos-medicos-publicaciones-y-recursos h3{
+  font-size: 14pt;
+}
+
+
+#block-bloquecasos-medicos-publicaciones-y-recursos a{
+  padding: 10px;
+  width: 398px;
+  background: #b72a47;
+  text-transform: uppercase;
+  color: white;
+  font-size: 15pt;
+  position: relative;
+}
+
+#block-bloquecasos-medicos-publicaciones-y-recursos a:hover{
+  padding: 10px;
+  width: 398px;
+  background: #6d1426;
+  text-transform: uppercase;
+  color: white !important; 
+  font-size: 15pt;
+  position: relative;
+}
+
+.view-slideracademicos{
+  margin: 0 auto;
+  position: relative;
+  top: 20px;
+  margin-bottom: 50px;
+}
+
+.view-slideracademicos ul li{
+  
+}
+
+.page-node-type-convenios-programas-academicos .flex-direction-nav .flex-prev {
+  margin-left: 20px;
+  background: url(/themes/bootstrap/images/arrowsRed.png) no-repeat left;
+  text-indent: 99999px;
+  width: 20px;
+}
+.page-node-type-convenios-programas-academicos .flex-direction-nav .flex-next {
+  margin-right: 20px;
+  background: url(/themes/bootstrap/images/arrowsRed.png) no-repeat right;
+  text-indent: 99999px;
+  width: 20px;
+  position: absolute;
+}
+
+.view-slider-medicos-adscritos{
+  height: 316px;
+  background: url('/sites/default/files/2018-09/slidermedicosadscritosjpg') no-repeat;
+  margin-top: 37px;
+  margin-bottom: 37px;
+}
+
+.view-slider-medicos-adscritos h1{
+  color:white;
+  text-align:center;
+  top: 48px;
+  position:relative;
+  font-size: 2.2em;
+  text-transform: uppercase;
+}
+
+.view-slider-medicos-adscritos .flex-control-nav{
+  display: none;
+}
+
+.view-slider-medicos-adscritos .views-field-body{
+
+font-size: 2em;
+
+position: relative;
+
+color: white;
+
+margin: 0 auto;
+
+position: absolute;
+
+margin-top: 6%;
+
+left: 0;
+
+right: 0;
+}
+
+.view-slider-medicos-adscritos .flex-active-slide{
+  text-align:center;
+}
+
+
+
+.view-slider-electronica {
+  height: 370px;
+  background: url('/sites/default/files/2018-09/slidermedicosadscritosjpg') no-repeat;
+  margin-top: 37px;
+  margin-bottom: 37px;
+}
+
+.view-slider-electronica  h1{
+  color:white;
+  text-align:center;
+  top: 48px;
+  position:relative;
+  font-size:3.2em;
+  text-transform: uppercase;
+}
+
+.view-slider-electronica  .flex-control-nav{
+  display: none;
+}
+
+.view-slider-electronica  .views-field-body{
+  font-size: 2em;
+  position: relative;
+  color: white;
+  margin: 0 auto;
+  position: absolute;
+  margin-top: 5%;
+  left: 0;
+  right: 0;
+  padding: 0px 250px !important;
+}
+
+.view-slider-electronica  .flex-active-slide{
+  text-align:center;
+}
+
+.path-directorio-medico .view-content{
+    
+text-align:center;
+    
+padding: 5px 29px;
+}
+
+.page-node-type-plantilla-imagen-texto{
+
+}
+
+.page-node-type-plantilla-imagen-texto .field--name-field-contenido img{
+  height: auto !important;
+  margin: 27px;
+  float: right;
+  width: 40%;
+}
+@media(max-width:1280px){
+.page-node-type-detalle-especialista div[class*="field--name-field-cargo"]{
+  left: 33%;
+}
+}
+
+@media(min-width:1400px){
+  .main-container {
+    padding: 65px 210px !important;
+    position: relative;
+  }
+}
+
+.page-node-type-paciente-internacional .main-container{
+  padding: 0 !important;
+}
+
+.page-node-type-paciente-internacional .block-views-blockpaciente-internacional-block-1{
+  position:relative;
+  width:100%
+
+}
+
+@media(min-width:1400px){
+  .como-pagar .main-container {
+    padding: 63px 158px !important;
+    position: relative;
+  }
+}
+
+
+@media(min-width:700px){
+  .como-pagar .main-container {
+    padding: 63px 158px !important;
+    position: relative;
+  }
+}
+
+.author{
+  display:none !important;
+}
+
+
+
+.page-node-type-paciente-internacional #block-contactanos-paciente-internacional #field--name-body{
+  padding: 50px 87px;
+  background: none;
+}
+
+@media(max-width:1300px){
+
+  .page-node-type-paciente-internacional .main-container #field--name-body{
+      padding: 51px 120px;
+      text-align: justify;
+    }
+
+    .page-node-type-paciente-internacional #field--name-field-introducci-n{
+       padding: 50px 223px 52px 0px;
+       text-align: justify;
+    }
+  
+}
+
+
+@media (max-width:700px){
+
+      .page-node-type-paciente-internacional #field--name-field-introducci-n{
+         padding: 51px;
+         text-align: justify;
+      }
+
+      .page-node-type-paciente-internacional #field--name-body{
+        padding: 51px;
+        text-align: justify;
+      }
+
+      .page-node-type-paciente-internacional .main-container .field--name-body{
+
+                width: 100%;
+
+                float: left;
+
+                padding: 30px;
+
+                color: grey;
+
+                font-size: 13pt;
+      }
+
+      .page-node-type-paciente-internacional .main-container .field--name-field-introducci-n {
+          width: 100%;
+          float: left;
+          color: grey;
+      }
+
+}
+
+.block-views-blockconvenios-slider-block-1{
+  text-align:center;
+  margin-bottom: 90px;
+}
+
+
+
+.block-views-blockconvenios-slider-block-1 .block-title{
+  top:-30px;
+  position:relative
+}
+
+.page-node-type-investigacion-tercera{
+
+}
+
+.page-node-type-investigacion-tercera article img{
+
+    width: 330px !important;
+    height: auto !important;
+    
+}
+
+
+
+.page-node-type-equipo-de-trabajo .main-container .field--name-body{
+  width: 43%;
+  float:left;
+}
+
+
+.page-node-type-equipo-de-trabajo .field--name-field-image{
+  width: 52%;
+  float:left;
+  height: 680px;
+}
+
+
+
+
+.page-node-type-equipo-de-trabajo .field--name-field-image img{
+  height:auto;
+  margin: 55px;
+  /* margin-top: 187px; */
+}
+
+.page-node-type-equipo-de-trabajo.field--name-field-ensayos-clinicos{
+  width:100%;
+  position:relative;
+}
+
+
+
+/***** diseÃƒÂ±o 2 *****/
+
+
+.page-node-type-detalle-especialista .dialog-off-canvas-main-canvas .body-site .main-container .row .col-sm-12 .region .detalle-especialista .content img{
+      width: 100%;
+      height: 100%;
+}
+
+/* estilo profesionales de la salud */
+
+.page-node-type-profesionales-salud  .row{
+  margin: auto;
+}
+/* bloque 1 */
+.page-node-type-profesionales-salud  #block-profesionalesdelasaludbloque{
+  background-color: #fff;
+  padding: 50px;
+}
+
+
+.page-node-type-profesionales-salud #block-profesionalesdelasaludbloque h2 {
+  color: #8a8680;
+  margin-bottom: 30px;
+}
+.page-node-type-profesionales-salud #block-profesionalesdelasaludbloque a {
+  color: #8a8680;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+/* bloque 2 */
+.page-node-type-profesionales-salud #block-profesionalesdelasaludbloque2{
+  background-color: #ce2a29;
+  padding: 50px;
+  margin-top: 50px;
+    margin-bottom: 50px;
+}
+.page-node-type-profesionales-salud #block-profesionalesdelasaludbloque2 h2 {
+  color: #fff;
+  margin-bottom: 30px;
+}
+.page-node-type-profesionales-salud #block-profesionalesdelasaludbloque2 a {
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+/* bloque 3 */
+
+.page-node-type-profesionales-salud  #block-profesionalesdelasaludbloque3{
+  background-color: #fff;
+  padding: 50px;
+}
+.page-node-type-profesionales-salud #block-profesionalesdelasaludbloque3 h2 {
+  color: #8a8680;
+  margin-bottom: 30px;
+}
+.page-node-type-profesionales-salud #block-profesionalesdelasaludbloque3 a {
+  color: #8a8680;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+
+@media(min-width:1300px){
+
+    .page-node-type-profesionales-salud  #block-profesionalesdelasaludbloque{
+        background-color: #fff;
+        padding: 150px 50px;
+      }
+
+      .page-node-type-profesionales-salud  #block-profesionalesdelasaludbloque2{
+        background-color: #ce2a29;
+         padding: 150px 50px;
+      }
+
+      .page-node-type-profesionales-salud  #block-profesionalesdelasaludbloque3{
+        background-color: #fff;
+         padding: 150px 50px;
+      }
+
+}
+
+@media(min-width:800px){
+
+   .page-node-type-profesionales-salud  #block-profesionalesdelasaludbloque{
+        background-color: #fff;
+        padding: 100px 50px;
+      }
+
+      .page-node-type-profesionales-salud  #block-profesionalesdelasaludbloque2{
+        background-color: #ce2a29;
+         padding: 100px 50px;
+      }
+
+      .page-node-type-profesionales-salud  #block-profesionalesdelasaludbloque3{
+        background-color: #fff;
+         padding: 100px 50px;
+      }
+
+}
+
+
+/* fin estilo profesionales de la salud */
+
+/* EducaciÃƒÆ’Ã‚Â³n e InvestigaciÃƒÆ’Ã‚Â³n */
+.page-node-type-home-educacion .row{
+  margin: auto;
+}
+.page-node-type-home-educacion #block-bloque1-educacion-e-investigacion{
+  margin: 0;
+  padding: 40px;
+  background: #fff;
+}
+
+.page-node-type-home-educacion #block-bloque2-educacion-e-investigacion{
+  background-color: #ce2a29;
+  padding: 30px;
+  margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.page-node-type-home-educacion .page-header{
+  display:none;
+}
+
+.page-node-type-home-educacion #block-bloque3-educacion-e-investigacion{
+  margin: 0;
+  padding: 21px;
+  background: #fff;
+}
+
+.page-node-type-home-educacion #block-bloque2-educacion-e-investigacion h2{
+  margin-bottom: 30px;
+  color: #fff;
+  padding: 0 0 30px 30px;
+}
+.page-node-type-home-educacion #block-bloque2-educacion-e-investigacion a{
+  color: #fff;
+}
+.page-node-type-home-educacion #block-bloque1-educacion-e-investigacion h2{
+  margin-bottom: 30px;
+  color: #8a8680;
+  padding: 0 0 0px 19px;
+}
+.page-node-type-home-educacion #block-bloque3-educacion-e-investigacion h2{
+  margin-bottom: 30px;
+  color: #8a8680;
+    padding: 0 0 30px 30px;
+}
+.page-node-type-home-educacion  ul{
+  list-style:none;
+  font-size: 16px;
+  line-height: 2.5;
+}
+
+@media(max-width:700px){
+    
+
+    .page-node-type-home-educacion  ul{
+        list-style:none;
+        font-size: 16px;
+        line-height: 1.5;
+        padding: 0;
+      }
+
+      .page-node-type-home-educacion #block-bloque1-educacion-e-investigacion{
+          margin: 0;
+          padding: 40px;
+          background: #fff;
+        }
+
+
+
+}
+.page-node-type-home-educacion #block-bloque1-educacion-e-investigacion a{
+  color: #8a8680;
+}
+.page-node-type-home-educacion #block-bloque3-educacion-e-investigacion a{
+  color: #8a8680;
+}
+.page-node-type-home-educacion  a:hover{
+  text-decoration: none;
+}
+/* fin EducaciÃƒÆ’Ã‚Â³n e InvestigaciÃƒÆ’Ã‚Â³n */
+
+/* publicaciones y recursos */ 
+.page-node-type-publicaciones-y-recursos p{
+  margin-top: 10px;
+}
+
+.page-node-type-publicaciones-y-recursos .field-content a{
+  color: #941c35;
+  font-weight: 900;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+.page-node-type-publicaciones-y-recursos .field-content a:hover{
+  text-decoration: none;
+}
+.page-node-type-publicaciones-y-recursos .field-content time{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.page-node-type-publicaciones-y-recursos .next a{padding: 10px;background-color: #ce2a29;color: #fff !important;font-size: 30px;border-radius: 0px;line-height: 50%;}
+
+.page-node-type-publicaciones-y-recursos .previous a{
+  padding: 10px;
+    background-color: #ce2a29;
+    color: #fff !important;
+    font-size: 30px;
+    border-radius: 0px;
+    line-height: 50%;
+}
+/* fin publicaciones y recursos*/
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+.page-node-type-home-educacion #block-bloque2-educacion-e-investigacion{
+  
+padding: 40px;
+}
+
+ }
+
+ .btn-primary:active:hover, .btn-primary.active:hover, .open > .dropdown-toggle.btn-primary:hover, .btn-primary:active:focus, .btn-primary.active:focus, .open > .dropdown-toggle.btn-primary:focus, .btn-primary:active.focus, .btn-primary.active.focus, .open > .dropdown-toggle.btn-primary.focus {
+     color: #fff;
+     background-color: #ce2a29;
+     border-color: #ccc;
+ }
+
+ .btn-primary:active, .btn-primary.active {
+    background-color: #ce2a29;
+    border-color: #949da5;
+}
+
+
+.glyphicon {
+    position: relative;
+    top: 3px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color:gray
+}
+
+@media(min-width: 800px){
+
+  .navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+      max-height: 160px;
+  }
+
+}
+
+.espacio-menusectionscontainer{
+  position: relative;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+
+.menusectionscontainer-home{
+  position: absolute;
+  text-align: center;
+  padding: 14px;
+  width: 100%;
+  border: 1px solid #e4e0e0;
+  background: white;
+  z-index: 999;
+  height: 2.4%;
+}
+
+
+
+.menusectionscontainer-home ul{
+  width:100%;
+  position: relative;
+  height: 35px;
+}
+
+.menusectionscontainer-home ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 0px 0 45px;
+    font-family: Arial;
+    font-size: 11px;
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+    position: relative;
+}
+
+
+.menusectionscontainer-home ul li a{
+  font-size: 14px;
+  text-transform:uppercase;
+  font-weight:600;
+  color: #3c3838;
+}
+
+.menusectionscontainer-home ul li a:hover{
+  font-size: 14px;
+  text-transform:uppercase;
+  font-weight:600;
+  color: #941c35 !important;
+}
+
+
+.menusectionscontainer-home ul li a:hover::before{
+    content: "";
+    width: 40%;
+    background-color: #941c35;
+    position: absolute;
+    bottom: 5px;
+    height: 2px;
+    left: 10px;
+    opacity: 1;
+    transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    color: #941c35;
+}
+
+.menusectionscontainer-home ul li:before{
+    content:"";
+    width: 3px;
+    height:15px;
+    background-color: #827878;
+    display:block;
+    position:absolute;
+    left:-35px;
+    top:14px;
+}
+
+
+.menusectionscontainer-home ul li:nth-child(1):before{
+  
+    display:none;
+    
+}
+
+
+.page-node-type-detalle-tratamiento .main-container .field--name-body{
+  width: 49%;
+  margin: 0px;
+  float: left;
+}
+
+
+.page-node-type-detalle-tratamiento .main-container #block-redessocialesshaio .field--name-body{
+  width: 100%;
+  margin: 0px;
+  float: left;
+}
+
+
+
+
+
+.page-node-type-detalle-tratamiento .field--name-field-descripcion{
+
+width: 45%;
+
+margin: 20px;
+
+float: left;
+}
+
+.page-node-type-detalle-tratamiento .field--name-field-descrip-tec{
+
+width: 100%;
+
+margin: 20px;
+
+float: left;
+}
+
+
+
+
+
+
+@media(min-width: 765px){
+  .view-certificaciones .views-row{
+    height:300px;
+    border-bottom:1px solid #eae5e5;
+    padding: 55px 0px;
+  }
+
+  .view-certificaciones  .views-field-body {
+    text-align:justify;
+    width: 70%;
+    height: 100%;
+    float: left;
+  }
+
+ 
+
+  .videoservicios{
+    width: 70%;
+    position:relative;
+    margin:0 auto;
+    margin-bottom: 60px;
+  }
+
+  .page-node-type-investigacion-tercera article .field--name-body{
+        width: 65%;
+        float:left;
+    }
+
+    .page-node-type-investigacion-tercera  .field--name-field-imagen-de-investigacion{
+        width: 27%;
+        float:left;
+        margin:5px 20px;
+    }
+
+    .field--name-field-contenido2 img{
+      float:left;
+    }
+
+     .field--name-field-contenido2 .text-certificacion-investigacion{
+
+        padding: 47px;
+
+      }
+
+    
+     
+
+}
+
+  .page-node-type-pacientes-y-familia .videoservicios{
+    width: 100%;
+    position:relative;
+    margin:0 auto;
+    padding: 36px 170px;
+    height: auto;
+    background:white;
+  }
+
+@media(max-width:768px){
+        
+     .page-node-type-detalle-tratamiento {
+       margin-top:100px;
+     }
+    
+    .page-node-type-detalle-tratamiento .main-container .field--name-body{
+      width: 100%;
+      margin: 0px;
+      float: left;
+      text-align: left;
+    }
+
+
+       .page-node-type-detalle-tratamiento .main-container #block-redessocialesshaio .field--name-body{
+      width: 60%;
+      margin: 0px;
+      float: right;
+      right: 10px;
+      position: relative;
+    }
+
+    .page-node-type-detalle-prensa  .main-container #block-redessocialesshaio .field--name-body{
+      width: 60%;
+      margin: 0px;
+      float: right;
+      right: 10px;
+      position: relative;
+    }
+
+
+
+
+    .page-node-type-detalle-tratamiento .main-container #block-redessocialesshaio .st_facebook_large{
+      float:left;
+      width: 33%;
+    }
+
+
+    .page-node-type-detalle-prensa .main-container #block-redessocialesshaio .st_facebook_large{
+      float:left;
+      width: 33%;
+    }
+
+
+
+
+
+    .page-node-type-detalle-tratamiento .main-container #block-redessocialesshaio .st_twitter_large{
+      width:33%;
+      float:left;
+    }
+
+
+    .page-node-type-detalle-prensa .main-container #block-redessocialesshaio .st_twitter_large{
+      width:33%;
+      float:left;
+    }
+
+
+
+
+
+
+    .page-node-type-detalle-tratamiento .main-container #block-redessocialesshaio .st_googleplus_large{
+      width:33%;
+      float:left;
+    }
+
+    .page-node-type-detalle-prensa  .main-container #block-redessocialesshaio .st_googleplus_large{
+      width:33%;
+      float:left;
+    }
+
+
+
+
+  
+
+  
+
+    .page-node-type-detalle-tratamiento .field--name-field-descripcion{
+
+width: 100%;
+
+margin: 20px;
+
+float: left;
+
+}
+
+    .page-node-type-detalle-tratamiento .field--name-field-descrip-tec{
+
+    width: 100%;
+
+    margin: 20px;
+
+    float: left;
+    }
+
+
+ 
+
+    .page-node-type-detalle-tratamiento .field--name-field-imagen-certificaciones {
+        width: 100%;
+        float: left;
+    }
+
+
+     .page-node-type-detalle-tratamiento .menusectionscontainer-home ul li {
+          list-style: none;
+          display: inline-block;
+          margin: 0 0px 0 15px;
+          font-family: Arial;
+          font-size: 11px;
+          text-decoration: none;
+          padding: 10px;
+          color: #fff;
+          position: relative;
+      }
+      
+      .page-node-type-detalle-tratamiento .menusectionscontainer-home ul li:nth-child(1):before{
+  
+            display:none;
+
+        }
+
+      .page-node-type-detalle-tratamiento .menusectionscontainer-home ul li:before{
+            content:"";
+            width: 2px;
+            height: 11px;
+            background-color: #827878;
+            display:block;
+            position:absolute;
+            left: -8px;
+            top: 13px;
+        }
+
+
+  
+}
+
+.field--name-field-contenido-3{
+  line-height:2em;
+}
+
+.field--name-field-contenido-3 h1{
+  line-height:3em
+}
+
+
+.page-node-type-investigacion-tercera .view-medicos-investigadores .button, .path-medicos-investigadores .view-medicos-investigadores .button{
+  display:none;
+}
+
+.view-medicos-investigadores .views-row{
+  height: 345px;
+  text-align:center;
+  font-size:13pt;
+  font-weight:600;
+  line-height:2em;
+}
+.col-sm-12 .equipo-de-trabajo img{
+	width: 100%;
+}
+
+.view-miembros-de-comite-{
+  text-align:center;
+  margin: 67px;
+  font-size: 14px;
+  height: 394px;
+}
+
+
+
+
+.view-miembros-de-comite- .views-field-title{
+  font-weight:600;
+  margin-top: 14px;
+  width:200px
+}
+
+.view-miembros-de-comite- .views-field-body{
+  margin-top: 14px;
+  width:200px
+}
+
+.page-node-type-comite .main-container .field--name-body{
+  margin:40px 0px;
+}
+
+
+.page-node-type-comite .main-container .field--name-body h1{
+  line-height:2em
+}
+
+.link-etica{
+  background:#791429;
+  color:white;
+  font-size: 19px;
+  padding: 14px;
+  text-transform: uppercase;
+}
+
+.link-etica:hover{
+  color:white !important;
+  background:#4c0d1a;
+}
+
+
+.path-informes-de-gestion .view-informes-de-gestion a{
+  width: 250px;
+  background:#791429;
+  color:white;
+  float:left;
+  text-align:center;
+  margin: 10px 20px 10px 0px;
+  padding:10px;
+  font-weight: 500;
+  text-transform:uppercase;
+  font-size: 15px;
+}
+
+.path-informes-de-gestion .view-informes-de-gestion a:hover{
+  width: 250px;
+  background:#420a16;
+  color:white !important;
+  float:left;
+  text-align:center;
+  margin: 10px 20px 10px 0px;
+  padding:10px;
+  font-weight: 500;
+  text-transform:uppercase;
+  font-size: 15px;
+}
+
+@media(max-width:760px){
+
+  .page-node-type-institucional .view-slider-home .views-field-field-imagen-slider,
+  .path-frontpage .view-slider-home .views-field-field-imagen-slider{
+
+      overflow:hidden;
+
+  }
+
+  #menu-shaio .menu--main li .dropdown-menu{
+    display: none;
+  }
+
+}
+
+
+
+
+
+@media(max-width:760px){
+
+      .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+          color: #fff !important;
+          background-color: #a2a2a2;
+          border-color: white !important;
+          text-transform: uppercase;
+      }
+
+
+      .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+          color: #555 !important;
+          background-color: #e7e7e7;
+      }
+  
+      .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+          color: #CE2A29 !important;
+          background: none;
+          border: 0;
+      }
+
+      .navbar-default .navbar-nav > li > a {
+          color: #fff !important;
+          text-transform: uppercase;
+      }
+
+      .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+          color: #fff;
+      }
+
+      .navbar-default .navbar-nav > .open > a.open{
+            color: #555 !important;
+            background-color: #e7e7e7;
+        }
+
+
+
+        .dropdown-toggle{
+          position: relative;
+          display: block;
+          padding: 15px;
+          font-size: 20px;
+          font-weight: 300;
+          background: #2c3e50;
+          color: #fff;
+          text-decoration: none;
+        }
+        .accordion{
+              position: absolute;
+              top: 1px;
+              right: 20px;
+              width: 41px;
+              height: 44px;
+        }
+
+        .accordion span.toggle-icon:before {
+          content:"+";
+          color: white;
+        }
+
+        .accordion.open span.toggle-icon:before {
+          content:"-";
+          
+        }
+
+        .accordion  span.toggle-icon {
+          position: absolute;
+          top: 1px;
+          right: 20px;
+          font-size: 31px;
+          font-weight:bold;
+        }
+
+        .dropdown-menu {
+          display: none;
+          padding: 20px;
+          overflow: auto;
+        }
+
+
+       
+
+}
+
+
+#field--name-field-youtube-link iframe{
+  width:100%;
+  height: 400px;
+}
+
+
+@media (min-width: 768px)
+{
+  .form-inline .radio label, .form-inline .checkbox label {
+      padding-left: 0;
+      font-size: 14px;
+      text-transform: uppercase;
+      font-weight: 600;
+      color: #3c3838;
+  }
+
+.form-inline .radio label:hover::after {
+    content: "";
+    width: 40%;
+    background-color: #941c35;
+    position: absolute;
+    bottom: 5px;
+    height: 2px;
+    left: 10px;
+    opacity: 1;
+    transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    color: #941c35 !important;
+}
+
+.label-item:after{
+   content: "";
+    width: 40%;
+    background-color: #941c35;
+    position: absolute;
+    bottom: 5px;
+    height: 2px;
+    left: 10px;
+    opacity: 1;
+    transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    color: #941c35 !important;
+}
+
+.form-inline .radio label:hover{
+  color: #941c35 !important;
+}
+
+
+
+
+}
+
+.webform-confirmation__back a{
+  position: absolute;
+  width: 227px;
+  background: #791429;
+  color:white;
+  height: 44px;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.webform-confirmation__back a:hover{
+  position: absolute;
+  width: 227px;
+  background: #480c18;
+  color: white !important;
+  height: 44px;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+
+.webform-confirmation__back{
+    -webkit-box-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+}
+
+.page-node-type-sarlaft .main-container .field--name-body a{
+
+padding:15px;
+
+width:190px;
+
+position:absolute;
+
+background:#941c35;
+
+color:white;
+
+text-align:center;
+
+text-transform:uppercase;
+
+top: 20px;
+
+left: 40px;
+}
+
+.page-node-type-sarlaft .main-container .field--name-body a:hover{
+
+  padding:15px;
+  width:190px;
+  position:absolute;
+  background:#460b17;
+  color:white !important;
+  text-align:center;
+  text-transform:uppercase;
+}
+
+
+
+  .page-node-type-pacientes-y-familia{
+        background:#e5e5e5;
+      }
+
+
+      #block-antesdetucitaoprocedimiento{
+        background:#c3c3c3;
+        padding:90px;
+        color: white;
+        height:370px
+      }
+      
+      #block-antesdetucitaoprocedimiento h2{
+        color: white;
+        font-size:19pt
+      }
+
+      #block-antesdetucitaoprocedimiento li{
+        color: white;
+        font-size:17pt;
+        list-style: none;
+      }
+
+
+      #block-antesdetucitaoprocedimiento li a{
+        color: white;
+        font-size: 14px;
+        text-decoration: none;
+      }
+      
+      
+
+
+
+
+      #block-duranteydespues{
+        background:#ffffff;
+        padding:90px;
+        color: white;
+        height:370px
+      }
+
+      #block-duranteydespues h2{
+        color: rgb(134, 134, 134);
+        font-size:19pt
+      }
+
+      #block-duranteydespues li{
+        color: rgb(134, 134, 134);
+        font-size:17pt;
+        list-style: none;
+      }
+
+
+      #block-duranteydespues li a{
+        color: rgb(134, 134, 134);
+        font-size: 14px;
+        text-decoration: none;
+      }
+
+
+
+      #block-pacienteinternacional{
+        
+        padding: 90px;
+        color: #ffffff;
+        height:370px;
+        background: #ce2a29;
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+
+      #block-pacienteinternacional h2{
+        color: white;
+        font-size:19pt
+      }
+
+      #block-pacienteinternacional li{
+        color: white;
+        font-size:17pt;
+        list-style: none;
+      }
+
+
+      #block-pacienteinternacional li a{
+        color: white;
+        font-size: 14px;
+        text-decoration: none;
+      }
+
+      #block-mecuidoparacuidarte{
+
+        background:#c3c3c3;
+        padding:90px;
+        color: white;
+        height:370px
+
+      }
+
+      #block-mecuidoparacuidarte h2{
+        color: white;
+        font-size:19pt
+      }
+
+      #block-mecuidoparacuidarte li{
+        color: white;
+        font-size:17pt;
+        list-style: none;
+      }
+
+
+      #block-mecuidoparacuidarte li a{
+        color: white;
+        font-size: 14px;
+        text-decoration: none;
+      }
+
+      #block-recomendacionesdeconservacionytransportedelechematerna{
+        background:#ffffff;
+        padding:90px;
+        color: white;
+        height:370px
+      }
+
+      
+      #block-recomendacionesdeconservacionytransportedelechematerna h2{
+        color: rgb(134, 134, 134);
+        font-size:19pt
+      }
+
+      #block-recomendacionesdeconservacionytransportedelechematerna li{
+        color: rgb(134, 134, 134);
+        font-size:17pt;
+        list-style: none;
+      }
+
+
+      #block-recomendacionesdeconservacionytransportedelechematerna li a{
+        color: rgb(134, 134, 134);
+        font-size: 14px;
+        text-decoration: none;
+      }
+
+
+
+
+      #block-pacientesyfamiliabloque4{
+        top:50px;
+        position: relative;
+        width:100%;
+        margin-bottom:50px;
+      }
+
+      #block-pacientesyfamiliabloque4 .field--name-body{
+        width:25%;
+        float:left;
+        background: pink;
+        padding: 30px;
+        height: 484px;
+        color: white;
+      }
+
+      #block-pacientesyfamiliabloque4 .field--name-body h2{
+        font-size:2em;
+        color: white;
+      }
+
+      #block-pacientesyfamiliabloque4 .field--name-body a{
+        color: white;
+      }
+
+
+      #block-pacientesyfamiliabloque4 .conetenido70{
+        width:75%;
+        float:left;
+      }
+
+
+.page-node-type-pacientes-y-familia ul{
+  padding:0;
+}
+
+
+.eps-pacientes-familias{
+  margin:20px 0px;
+  padding:0;
+  width: 100%;
+  position: relative;
+  float: none;
+}
+.eps-pacientes-familias .field--name-body{
+  width:30%;
+  float:left;
+  background: #ff8f9e;
+  height: 325px;
+  padding: 15px;
+  color: white;
+}
+
+.eps-pacientes-familias .field--name-body h2{
+    
+    color:white;
+}
+
+.eps-pacientes-familias .field--name-body a{
+    
+    color:white;
+}
+
+.eps-pacientes-familias  .field--name-field-imagen-intro{
+  width:70%;
+  float:left;
+  height: 325px;
+}
+.eps-pacientes-familias  .field--name-field-imagen-intro img{
+  
+  height:100%;
+  width: 100%;
+}
+
+.page-node-type-politica-de-privacidad .field--name-body{
+
+  text-align:justify;
+
+}
+
+.page-node-type-sarlaft .main-container .field--name-body{
+  height:100px;
+}
+
+
+
+
+ .view-certificaciones .views-field-field-imagen-contenido
+          {
+
+float: left;
+
+height: 100%;
+
+}
+
+.view-certificaciones .views-field-field-imagen-contenido img
+          {
+
+width: 200px;
+
+float: left;
+
+height: auto;
+}
+
+@media(min-width: 765px) and (max-width: 965px) {
+
+
+      .path-certificaciones .main-container h1{
+        font-size:20px;
+        margin-top:10px;
+      }
+
+      .path-certificaciones .view-certificaciones .views-row {
+          height: auto;
+          border-bottom: 1px solid #eae5e5;
+          padding: 137px 0px;
+      }
+
+       .view-certificaciones .views-field-field-imagen-contenido
+          {
+
+        width: 50%;
+
+        float: left;
+
+        height: 100%;
+
+        }
+
+        .view-certificaciones .views-field-field-imagen-contenido img
+                  {
+
+/* width: auto; */
+
+float: left;
+
+height: 100%;
+
+}
+
+
+}
+
+@media(max-width: 465px) {
+
+    .view-certificaciones .views-field-field-imagen-contenido img
+              {
+
+    width: 100%;
+
+    float: left;
+
+    height: 100%;
+
+    }
+
+    .view-certificaciones .views-field-title h1{
+
+      font-size:19px;
+    }
+
+    .view-certificaciones .views-field-body{
+
+      text-align:justify;
+
+    }
+
+    .view-servicios .views-row {
+        height: 228px;
+        width:50%;
+        float:left;
+    }
+
+    .view-servicios .views-row h4{
+
+      font-size:15px
+       
+    }
+}
+
+
+@media(min-width: 600px) {
+
+  .view-certificaciones .views-field-title h1{
+
+font-size: 2em;
+
+}
+
+  .page-node-type-prensa{
+    
+      margin-top: 120px;
+  }
+
+  .page-node-type-prensa .main-container {
+        padding: 45px 63px !important;
+        position: relative;
+  }
+
+  .view-prensa ul .col-md-2 {
+        height: 430px;
+        border: 1px solid #dad3d3;
+        margin: 10px;
+        padding: 0;
+        list-style: none;
+        width: 23%;
+        float: left;
+    }
+
+   
+
+}
+
+  .view-prensa ul .col-md-2 {
+        height: 430px;
+        border: 1px solid #dad3d3;
+        margin: 10px;
+        padding: 0;
+        list-style: none;
+        float: left;
+        margin-left: 0px;
+        margin-right: 20px;
+        color: grey;
+    }
+
+   .view-prensa ul .col-md-2 h1{
+        
+        color: grey;
+    }
+
+     #block-bloque2-educacion-e-investigacion ul{
+
+   width:50%;
+   float:left;
+ }
+
+ #block-bloque1-educacion-e-investigacion ul{
+
+   width:50%;
+   float:left;
+ }
+
+
+
+.page-node-type-detalle-prensa .main-container .field--name-body{
+  text-align:justify;
+  margin-top:20px;
+}
+
+.page-node-type-detalle-prensa .field--name-field-fecha{
+  margin-bottom:20px;
+}
+
+.radio + .radio, .checkbox + .checkbox {
+     margin-top: 0px;
+}
+
+
+
+@media(max-width:700px) and (min-width:450px){
+      .view-filters .form-item .control-label:before {
+          content: "";
+          width: 2px;
+          height: 12px;
+          background-color: #524e4e;
+          display: block;
+          position: absolute;
+          left: -5px;
+          top: 16px;
+          display: none;
+      }
+
+      .path-convenios, view-convenios-bloque{
+          margin-top: 490px;
+        }
+
+       
+
+}
+
+.view-busca-tu-especialista .form-item .control-label:before{
+          content:"";
+          width: 2px;
+          height: 12px;
+          background-color: #524e4e;
+          display:none !important;
+          position:absolute;
+          left:-5px;
+          top: 8px;
+          display:none
+      }
+
+
+#block-copyright .field--name-body{
+        line-height:2em;
+      
+}
+
+#block-copyright .field--name-body a{
+        font-weight:600 !important;
+      
+}
+
+
+.evento-2-home .views-field-field-tiempo-de-evento-  .field-content p:before{
+  width:50px;
+  height:50px;
+  background-image:url('/themes/bootstrap/css/images/clock.svg');
+  background-size:cover;
+  position:absolute;
+  display:block;
+  content:" ";
+  top:-24px;
+  left:-32px
+}
+
+.evento-2-home  .views-field-field-ubicacion-de-evento .field-content p:before{
+  width:45px;
+  height:45px;
+  background-image:url('/themes/bootstrap/css/images/map.svg');
+  background-size:cover;
+  position:absolute;
+  display:block;
+  content:" ";
+  top: -19px;
+  left:-32px;
+}
+
+
+.evento-1-home .views-field-field-tiempo-de-evento- .field-content p:before{
+
+  width:45px;
+  height:45px;
+  background-image:url('/themes/bootstrap/css/images/clock-2.svg');
+  background-size:cover;
+  position:absolute;
+  display:block;
+  content:" ";
+  top: -19px;
+  left:-32px;
+
+}
+
+.evento-1-home  .views-field-field-ubicacion-de-evento .field-content p:before{
+
+  width:45px;
+  height:45px;
+  background-image:url('/themes/bootstrap/css/images/map-2.svg');
+  background-size:cover;
+  position:absolute;
+  display:block;
+  content:" ";
+  top: -19px;
+  left:-32px;
+
+}
+
+.youtube-container--responsive {
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 67.25%;
+    height: 0;
+}
+
+
+#block-comollegarcontacto .field--name-body a:before{
+  width: 40px;
+  height: 40px;
+  background-image: url(/themes/bootstrap/css/images/mapa-contacto.svg);
+  background-size: cover;
+  position: absolute;
+  display: block;
+  content: " ";
+  left: 31%;
+  top: 178px;
+}
+
+
+#block-comollegarcontacto .field--name-body a{
+  text-decoration:underline !important;
+}
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 25px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    /* border-radius: 4px; */
+}
+/* telefonos */
+
+.footer-tel{
+  color: #fff;
+    text-align: center;
+    border-bottom: solid 1px;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    padding: 2%;
+}
+.footer-tel a{
+  color: #fff;
+}
+
+@media(min-width:769px){
+       
+
+       #block-gentedebuencorazonmoviles
+       {
+         display:none;
+       }
+
+       #block-gentedebuencorazon{
+         display:block;
+       }
+
+       .view-id-convenios_bloque .view-filters{
+  
+left: 0;
+  
+right: 0;
+  
+display: grid;
+  
+}
+}
+
+@media(max-width:769px){
+       
+
+       #block-gentedebuencorazonmoviles
+       {
+         display:block;
+
+         margin-bottom:40px;
+       }
+
+       #block-gentedebuencorazon{
+         display:none;
+       }
+       .view-slider-actualidad .flexslider .slides img{
+         height:300px
+       }
+
+       .view-id-convenios_bloque .view-filters{
+  
+        position: absolute;
+
+        top: -226px;
+
+        left: 0;
+
+        right: 0;
+
+        display: grid;
+
+        }
+
+        #block-comollegarcontacto .field--name-body a:before{
+          width: 40px;
+          height: 40px;
+          background-image: url(/themes/bootstrap/css/images/mapa-contacto.svg);
+          background-size: cover;
+          position: absolute;
+          display: block;
+          content: " ";
+          left: 50%;
+          top: 311px;
+        }
+
+
+        .page-node-type-corazon-colombia .main-container h1{
+          font-size: 1.6em;
+        }
+
+
+}
+
+.view-id-eventos h1{
+  color: white;
+  line-height:2em;
+}
+.page-node-type-detalle-prensa article{
+  margin-bottom: 52px;
+}
+.block-views-blockprensa-block-2{
+  border-top: 2px solid #e6e5e5;
+  margin-top: 25px;
+  padding-top: 32px;
+}
+
+@media(min-width:570px){
+
+        .path-servicios .main-container{
+        padding:20px 50px !important;
+      }
+
+
+}
+
+h4, .h4 {
+    font-size: 1.2em;
+}
+
+.page-node-type-detalle-tramite .main-container{
+  
+  padding-left:150px !important;
+}
+
+.path-directorio-medico .main-container{
+  padding:40px 40px !important;
+}
+
+.page-node-type-detalle-especialista .main-container{
+  padding:40px 70px !important;
+  padding-left:150px !important;
+}
+
+@media(max-width:800px){
+        .page-node-type-detalle-especialista .main-container{
+        padding:40px 20px !important;
+        padding-left:20px !important;
+      }
+}
+
+
+.views-field-field-cargo{
+    
+    font-size:14px;
+}
+
+.page-node-type-paciente-internacional{
+  background:#e5e5e5
+}
+
+
+.active .accordion span.toggle-icon:before {
+                      content:"+";
+                      color: #CE2A29;
+                    }
+
+
+@media (max-width: 800px) and (min-width: 300px){
+      .path-preparacion-citas-y-procedimientos .main-container {
+          padding: 15px 20px !important;
+          position: relative;
+          margin-top: 20px;
+      }
+
+      .page-node-type-detalle-tramite .main-container {
+            padding-left: 20px !important;
+        }
+
+        .path-directorio-medico .main-container {
+            padding: 0px !important;
+        }
+
+        #block-contactoinvestigacion{
+          padding:40px;
+        }
+
+        h2, .h2 {
+            font-weight: 300;
+            color: #941c35;
+            font-size:19px
+        }
+
+        h1 {
+            font-weight: 300;
+            color: #941c35;
+            margin: 5px 5px 5px 0;
+            font-size: 3.5rem;
+            text-transform: initial;
+            line-height: 1.5em;
+            font-size:20px
+        }
+}
+
+@media(min-width: 1400px){
+
+  .menusectionscontainer-home{
+      position: absolute;
+      text-align: center;
+      padding: 14px;
+      width: 100%;
+      border: 1px solid #e4e0e0;
+      background: white;
+      z-index: 999;
+      height: 2.4%;
+    }
+
+}
+
+#block-menupacienteinternacional{
+        background:#e5e5e5;
+        padding: 9px;
+}
+
+.page-node-type-paciente-internacional .menusectionscontainer-home{
+      position: absolute;
+      text-align: center;
+      padding: 10px;
+      width: 100%;
+      border: 1px solid #e4e0e0;
+      background: #e5e5e5;
+      z-index: 999;
+      height: 5.5em;
+    }
+
+
+.page-node-type-paciente-internacional .menusectionscontainer-home ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 0px 0 37px;
+    font-family: Arial;
+    font-size: 11px;
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+    position: relative;
+    width: 20%;
+}
+
+
+.page-node-type-paciente-internacional .menusectionscontainer-home ul li a:hover::before {
+    display:none;
+}
+
+.page-node-type-paciente-internacional .menusectionscontainer-home ul li:before{
+    display:none;
+}
+
+.page-node-type-paciente-internacional .menusectionscontainer-home ul li a {
+  color:#8a8680
+}
+
+@media(max-width:760px){
+
+        .page-node-type-paciente-internacional .menusectionscontainer-home{
+            position: absolute;
+            text-align: center;
+            padding: 0px;
+            width: 100%;
+            border: 1px solid #e4e0e0;
+            background: #e5e5e5;
+            z-index: 999;
+            height: 5.5em;
+          }
+
+
+          .page-node-type-paciente-internacional .menusectionscontainer-home ul li {
+              list-style: none;
+              display: inline-block;
+              margin: 0 0px 0 0px;
+              font-family: Arial;
+              font-size: 11px;
+              text-decoration: none;
+              padding: 7px;
+              color: #fff;
+              position: relative;
+              width: 48%;
+          }
+
+
+          .page-node-type-paciente-internacional .menusectionscontainer-home ul li a:hover::before {
+              display:none;
+          }
+
+          .page-node-type-paciente-internacional .menusectionscontainer-home ul li:before{
+              display:none;
+          }
+
+          .page-node-type-paciente-internacional .menusectionscontainer-home ul li a {
+            color:#8a8680
+          }
+          #block-menupacienteinternacional {
+              background: #e5e5e5;
+              padding: 0px;
+              top: -12px;
+          }
+
+          .page-node-type-paciente-internacional .main-container .field--name-body {
+              width: 50%;
+              float: left;
+              padding: 79px;
+              color: grey;
+              background: white;
+              height: 211px;
+          }
+
+          .page-node-type-paciente-internacional .main-container .field--name-field-introducci-n {
+              width: 50%;
+              float: left;
+              color: grey;
+              padding: 80px;
+              padding-left: 0;
+              background: white;
+              height: 221px;
+          }
+}
+
+
+@media(min-width: 750px){
+
+        .view-paciente-internacional .view-header{
+          display: none;
+        }
+
+        .quicktabs-tabs{
+          display: block !important;
+        }
+}
+
+.title-movil{
+  display: none
+}
+
+.volver-pacientes{
+  display: none;
+}
+
+
+.path-directorio-medico .page-header{
+  display:none;
+}
+
+
+.path-eventos .page-header{
+  display: none;
+}
+
+.view-miembros-de-comite- img{
+  width:200px
+}
+
+
+
+@media(max-width:2850px){
+      .slider-miembros .slick-initialized .slick-slide {
+          display: block;
+          margin: 15px;
+          width: 253px;
+      }
+
+      .block-views-blockconvenios-slider-block-1  .slick-initialized .slick-slide {
+          display: block;
+      }
+}
+
+
+@media(max-width:1350px){
+      .slider-miembros .slick-initialized .slick-slide {
+          display: block;
+          margin: 15px;
+          width: 271px;
+          padding: 30px;
+      }
+
+      .block-views-blockconvenios-slider-block-1  .slick-initialized .slick-slide {
+          display: block;
+          width: 248px;
+          margin: 40px;
+          padding: 20px;
+          left: 150px;
+          position: relative;
+      }
+
+      #slider-convenios-slider .slick-slide img{
+        width: 248px;
+        left: 20px;
+        position: relative;
+        padding: 28px;
+      }
+}
+
+@media(max-width:550px){
+      .slider-miembros .slick-initialized .slick-slide {
+          display: block;
+          padding: 55px;
+          width: 312px;
+      }
+
+      .block-views-blockconvenios-slider-block-1  .slick-initialized .slick-slide {
+          display: block;
+          width: 278px;
+          margin: 40px;
+          padding: 0px 40px;
+          left: 165px;
+          position: relative;
+      }
+
+      .block-views-blockconvenios-slider-block-1  .slick-initialized .slick-slide img {
+          display: block;
+          left: 25px;
+          position: relative;
+      }
+
+      .block-views-blockconvenios-slider-block-1{
+          text-align:center;
+          margin-bottom: 0px;
+        }
+       
+       #slider-convenios-slider .slick-slide img{
+         width: 290px;
+         left: 20px;
+         position: relative;
+         padding: 28px;
+       }
+}
+
+    .page-node-type-detalle-actualidad-inves .field--name-body img{
+
+            width: auto !important;
+
+            float: right;
+
+            margin: 20px;
+    }
+
+    .view-detalle-actualidad-investigacion .views-field-body{
+
+            text-align:justify;
+    }
+
+    .view-detalle-actualidad-investigacion    .item-actualidad{
+
+    width: 30%;
+    }
+
+    .view-detalle-actualidad-investigacion    .item-actualidad .views-field-title {
+      font-size:19px
+    }
+
+    .view-detalle-actualidad-investigacion .views-field-view-node{
+
+     
+          padding: 13px 0px;
+
+          position: relative;
+
+    }
+
+
+     .view-detalle-actualidad-investigacion .views-field-view-node a{
+
+            color:#941c35;
+
+            padding: 33px 0px;
+
+            position: relative;
+
+    }
+
+    .view-detalle-actualidad-investigacion .view-header{
+        
+        font-size:16px;
+        font-weight:500;
+        margin-bottom:30px
+    }
+
+    .view-detalle-actualidad-investigacion .views-field-created{
+      padding:10px 0px;
+      font-size:14px;
+
+    }
+
+
+.page-node-type-publicaciones-y-recursos .main-container{
+  padding: 31px !important;
+}
+
+#block-bloqueprogramas-academicos ul{
+  float:left;
+  width:50%;
+}
+
+
+
+#block-bloque1-institucional{
+
+margin: 0;
+
+padding: 40px;
+
+background: #fff;
+}
+
+
+#block-bloque1-institucional a{
+  color: #8a8680;
+}
+
+#block-bloque1-institucional ul{
+
+    list-style: none;
+    font-size: 16px;
+    line-height: 2.5;
+     float:left;
+  width:50%;
+}
+
+#block-bloque2-institucional{  
+    background-color: #ce2a29;  
+    padding: 40px;  
+    margin-top: 50px;  
+    margin-bottom: 50px;
+}
+
+#block-bloque2-institucional ul{
+  padding:10px;
+   float:left;
+  width:50%;
+
+}
+
+#block-bloque2-institucional ul li{
+  padding:10px;
+  list-style:none
+}
+
+#block-bloque2-institucional ul a{
+  padding:10px;
+  color:white
+  
+}
+
+#block-bloque3-institucional{
+  margin: 0;
+  padding: 40px;
+  background: #fff;
+}
+
+#block-bloque3-institucional ul{
+  padding:10px;
+  float:left;
+  width:50%;
+
+}
+
+#block-bloque3-institucional ul li{
+  padding:10px;
+  list-style:none
+}
+
+#block-bloque3-institucional ul a{
+  padding:10px;
+  color:#8a8680;
+}
+
+@media(max-width: 760px){
+
+    #block-bloqueprogramas-academicos ul{
+      float:left;
+      width:100%;
+    }
+
+    #block-bloque1-institucional{
+        margin-top: 70px;
+    }
+
+    #block-bloque1-institucional ul{
+      width:100%
+    }
+  
+    #block-bloque2-institucional ul{
+      width:100%
+    }
+
+}
+
+.article[data-history-node-id="686"] p{
+  background: #941c35;
+  padding: 5px 108px;
+  width: 63%;
+  position: relative;
+}
+
+.article[data-history-node-id="686"] a{
+  color: white;
+
+}
+
+.view-servicios .views-field-field-imagen-galeria img{
+  width:100%
+}
+
+.view-servicios .view-filters{
+  left:0;
+  right:0;
+}
+
+.view-servicios .view-header{
+  margin:30px
+}
+
+.path-servicios .body-site{
+  margin-top: 168px;
+}
+.view-id-servicios .view-content .view-row{
+  float:left !important;
+}
+#block-comollegarcontacto .field--name-body a:before {
+    width: 40px;
+    height: 40px;
+    background-image: url(/themes/bootstrap/css/images/mapa-contacto.svg);
+    background-size: cover;
+    position: absolute;
+    display: block;
+    content: " ";
+    left: 32% !important;
+    top: 268px !important;
+}
+@media(min-width: 1370px) and (max-width: 1470px){
+  #block-comollegarcontacto .field--name-body a:before {
+        left: 10em !important;
+  }
+  }
+@media(min-width:1581px){
+#block-comollegarcontacto .field--name-body a:before {
+      left: 30% !important;
+    top: 182px !important;
+}
+}
+@media(max-width:1284px){
+#block-comollegarcontacto .field--name-body a:before {
+      left: 50% !important;
+      top: 176px !important;
+}
+}
+@media(max-width:1086px){
+#block-comollegarcontacto .field--name-body a:before {
+      left: 55% !important;
+    top: 200px !important;
+}
+}
+@media(max-width:959px){
+#block-comollegarcontacto .field--name-body a:before {
+        left: 23% !important;
+    top: 268px !important;
+}
+}
+@media(max-width:589px){
+#block-comollegarcontacto .field--name-body a:before {
+        left: 27% !important;
+    top: 268px !important;
+}
+}
+@media(max-width:411px){
+#block-comollegarcontacto .field--name-body a:before {
+    left: 44% !important;
+    top: 269px !important;
+}
+}
+@media(max-width:360px){
+#block-comollegarcontacto .field--name-body a:before {
+         left: 46% !important;
+    top: 309px !important;
+}
+}
+@media(max-width:320px){
+#block-comollegarcontacto .field--name-body a:before {
+         left: 51% !important;
+    top: 309px !important;
+}
+}
+@media(max-width:375px){
+#block-comollegarcontacto .field--name-body a:before {
+         left: 51% !important;
+    top: 310px !important;
+}
+}
+@media(max-width:414px){
+#block-comollegarcontacto .field--name-body a:before {
+        left: 43% !important;
+    top: 309px !important;
+}
+}
+#block-somosfundacion img{
+	width: 100%;
+}	
+@media (max-width: 800px) and (min-width: 300px){
+.page-node-type-detalle-tramite .main-container .detalle-tramite img{
+  width: 100%;
+
+}
+}

@@ -1,0 +1,6 @@
+services:
+  ultimenu.manager:
+    class: Drupal\ultimenu\UltimenuManager
+    arguments: ['@config.factory', '@module_handler', '@theme_handler', '@menu.link_tree', '@menu.active_trail', '@string_translation', '@cache.discovery']
+    tags:
+      - { name: plugin_manager_cache_clear }

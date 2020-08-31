@@ -1,0 +1,18 @@
+ultimenu:
+  version: VERSION
+  js:
+    js/ultimenu.min.js: {}
+  css:
+    theme:
+      css/ultimenu.css: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/drupalSettings
+    - core/jquery.once
+
+ultimenu.admin:
+  version: VERSION
+  css:
+    theme:
+      css/ultimenu.admin.css: {}

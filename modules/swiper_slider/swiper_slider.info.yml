@@ -1,0 +1,11 @@
+name: Swiper Slider
+type: module
+description: A module to create sliders using swiper slider js library
+# core: 8.x
+package: SoipoServices
+
+# Information added by Drupal.org packaging script on 2017-08-25
+version: '8.x-1.x-dev'
+core: '8.x'
+project: 'swiper_slider'
+datestamp: 1503640146
